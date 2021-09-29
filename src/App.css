@@ -381,10 +381,10 @@ h1 {
   position: absolute;
   opacity: 0;
   background: var(--primary-black);
-  width: 20rem;
+  width: 22rem;
   height: 2.5rem;
   cursor: pointer;
-  border: 1px solid var(--primary-hover-red);
+  border: 3px solid var(--primary-red);
   margin-top: -.1rem;
   margin-bottom: 5rem;
 
@@ -426,7 +426,7 @@ h1 {
 .tool-icon-right {
   position: absolute;
   opacity: 1;
-  margin-left: 17rem;
+  margin-left: 20rem;
   margin-top: .35rem;
   color: var(--primary-black);
   font-size: 1.5rem;
@@ -435,19 +435,19 @@ h1 {
 .tool-icon {
   position: absolute;
   opacity: 1;
-  margin-right: 17rem;
+  margin-right: 20rem;
   margin-top: .35rem;
   color: var(--primary-black);
   font-size: 1.5rem;
 }
 
-/*.org-pic {
+.org-pic {
   display: flex;
   justify-content: center;
-  } */
+  }
   
   .org_img {
-  width: 30rem;
+  width: 20rem;
   
   }
 
