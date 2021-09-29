@@ -66,7 +66,7 @@ const Contacts = () => {
                             ref={
                                 register({
                                     pattern: {
-                                      value: /^[0-9]{1,10}$/,
+                                      value: /^[0-9]{10}$/,
                                       message: "Please provide a valid phone number"
                                     }
                                 })

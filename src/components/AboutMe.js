@@ -28,7 +28,7 @@ const AboutMe = () => {
                     <p>
                         <ul>
                             <li>Consistently delivering software that meets standards</li>
-                            <li>Ensuring the programming team develops high-quality working applications to clients.</li>
+                            <li>Ensuring the programming team develops high-quality working applications</li>
                             <li>Prioritizing programming work and assigns tasks</li>
                             <li>Appropriately dealing with problems in the team</li>
                             <li>Monitoring timeliness of attendance at team meetings</li>

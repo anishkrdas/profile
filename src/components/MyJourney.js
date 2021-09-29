@@ -278,7 +278,7 @@ const MyJourney = () => {
                             <b>Cognizant Digital Engineering<br/>
                             Cognizant Technology Solutions</b></p>
                         </div> 
-                        <div className="overflow" onMouseOver={openPopupbox_cts_tl}></div>
+                        <div className="overflow" onClick={openPopupbox_cts_tl}></div>
                         <FontAwesomeIcon className = "tool-icon-right" icon={faSearchPlus}/>
                 </div>
                 {/* --*/}
@@ -291,7 +291,7 @@ const MyJourney = () => {
                             <b>Amdocs R&amp;D<br/>
                             Amdocs Development Center India</b></p>
                         </div>
-                        <div className="overflow" onMouseOver={openPopupbox_dvci_asd_rd}></div>
+                        <div className="overflow" onClick={openPopupbox_dvci_asd_rd}></div>
                         <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/>
                 </div>
                 {/* --*/}
@@ -304,7 +304,7 @@ const MyJourney = () => {
                             <b>Amdocs Development<br/>
                             Amdocs Development Center India</b></p>
                         </div>
-                        <div className="overflow" onMouseOver={openPopupbox_dvci_asd}></div>
+                        <div className="overflow" onClick={openPopupbox_dvci_asd}></div>
                         <FontAwesomeIcon className = "tool-icon-right" icon={faSearchPlus}/>
                 </div>
                 {/* --*/}
@@ -317,7 +317,7 @@ const MyJourney = () => {
                         <b>Amdocs Delivery<br/>
                         Amdocs Development Center India</b></p>
                     </div>
-                    <div className="overflow" onMouseOver={openPopupbox_dvci_esd}></div>
+                    <div className="overflow" onClick={openPopupbox_dvci_esd}></div>
                     <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/>
                 </div>
                 
@@ -330,7 +330,7 @@ const MyJourney = () => {
                         <p>Software Engineer<br/>
                         <b>Tech Mahindra Limited</b></p>
                     </div>
-                    <div className="overflow" onMouseOver={openPopupbox_se_tml}></div>
+                    <div className="overflow" onClick={openPopupbox_se_tml}></div>
                     <FontAwesomeIcon className = "tool-icon-right" icon={faSearchPlus}/>
                 </div>
                 {/* --*/}
@@ -342,7 +342,7 @@ const MyJourney = () => {
                         <p>Associate Software Engineer<br/>
                         <b>Tech Mahindra Limited</b></p>
                     </div>
-                    <div className="overflow" onMouseOver={openPopupbox_ase_tm}></div>
+                    <div className="overflow" onClick={openPopupbox_ase_tm}></div>
                     <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/>
                 </div>
             </div>

@@ -13,6 +13,7 @@
   --primary-sky: #08f0dc;
   --primary-black: #000000;
   --primary-red: #ff0000;
+  --primary-red-dark: #570404;
   --primary-dark: rgba(255, 255,255,0);
   --primary-dark-grey: #7c7777;
   --primary-dark-b: rgb(36, 42, 48);
@@ -27,6 +28,11 @@
   --primary-details: #031515;
   --primary-date: #e9fafb;
   --primary-dark-a: rgb(31, 37, 44);
+
+  --experience-background: #ceb8fc;
+  --about-me-background: #a5a590;
+  --about-me-img-text: #0000ff;
+  --contact-me-background: #6a869f;
 }
 
 *{
@@ -160,7 +166,8 @@ nav ul li {
 }
 
 .typed-text-static{
-  font-size: 1.75rem;
+  font-size: 2rem;
+  font-family: 'Dangrek', cursive;
   font-weight: bold;
   color: var(--primary-black);
   position: relative;
@@ -258,11 +265,14 @@ h1 {
 /*************************HEADER END | ABOUT ME START********************************/
 
 .about {
-  background-color: var(--primary-dark-a);
+  background-color: var(--about-me-background);
 }
 
 .about-me-dets p {
-  color: var(--primary-white);
+  color: var(--primary-dark-b);
+  font-family: 'David Libre', serif;
+  font-weight: bolder;
+  font-size: 1.1rem;
 }
 
 .photo-wrap {
@@ -284,9 +294,10 @@ h1 {
 .imageDesc {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.1rem;
-  color: rgb(186, 189, 17);
+  font-size: 1.14rem;
+  color: var(--about-me-img-text);
   padding-top: -1rem;
+  font-weight: bold;
 }
 
 .about-heading {
@@ -297,7 +308,7 @@ h1 {
 .typed-text{
   font-size: 2rem;
   position: relative;
-  background: -webkit-linear-gradient(rgb(5, 186, 218),#c300ff);
+  background: -webkit-linear-gradient(black,#c300ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
@@ -315,7 +326,7 @@ h1 {
 
 .experience {
   padding: 0.7rem;
-  background-color: var(--primary-background);
+  background-color: var(--experience-background);
 }
 
 .experience-wrapper {
@@ -361,7 +372,7 @@ h1 {
 .marker {
   width: 1rem;
   height: 1rem;
-  border-radius: 50%;;
+  border-radius: 50%;
   border: 0.3125rem solid var(--primary-black);
   background: var(--primary-orange);
   margin-top: 0.625rem;
@@ -378,7 +389,7 @@ h1 {
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--primary-date);
+  color: var(--about-me-img-text);
   font-weight: bold;
   font-family: 'Jim Nightshade', cursive;
 }
@@ -405,6 +416,7 @@ h1 {
   border: 3px solid var(--primary-red);
   margin-top: -.1rem;
   margin-bottom: 5rem;
+  border-radius: 7%;
 
 }
 
@@ -587,7 +599,7 @@ h1 {
 /*************************TECHS END | CONTACTS START********************************/
 
 .contacts {
-  background: var(--primary-dark-b);
+  background: var(--primary-dark-transparent);
   padding: 3rem 0;
 }
 
@@ -598,7 +610,7 @@ h1 {
 }
 
 .contacts p {
-  color: var(--primary-light-grey);
+  color: var(--primary-dark-b);
   font-size: 1.2rem;
 }
 
@@ -626,14 +638,15 @@ h1 {
   background: none;
   resize: none;
   border: none;
-  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-bottom: 0.125rem solid var(--primary-white);
   border-radius: 0;
-  color: var(--primary-orange);
+  color: var(--primary-sky);
   outline: 0 !important;
   box-shadow: none !important;
   top: 0;
   margin-bottom: 1rem;
   padding-left: 0 !important;
+  font-family: 'Dangrek', cursive;
 }
 
 .contacts .container {
@@ -642,8 +655,9 @@ h1 {
 
 .contacts input:focus, .contacts textarea:focus {
   background: transparent;
-  color: var(--primary-orange);
-  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  color: var(--primary-sea-green);
+  border-bottom: 0.125rem solid var(--primary-dark-b);
+  font-family: 'Dangrek', cursive;
 }
 
 .contacts textarea {
@@ -666,6 +680,13 @@ h1 {
   display: inline-block;
 }
 
+.text-center ::placeholder {
+  
+  font-family: 'Dangrek', cursive;
+  text-transform: uppercase;
+  color: var(--primary-tint);
+}
+
 input:focus+.line, textarea:focus+.line {
   width: 100%;
   transition: width 0.5s ease-in-out;
@@ -680,13 +701,17 @@ textarea .form-control {
 }
 
 .error-message {
-  color: var(--primary-red);
+  color: var(--primary-orange);
   text-align: left;
+  font-family: 'Dangrek', cursive;
+  text-transform: uppercase;
 }
 
 .success-message {
   font-weight: 900;
   color: var(--primary-green);
+  font-family: 'Dangrek', cursive;
+  text-transform: uppercase;
 }
 
 

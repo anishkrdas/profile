@@ -16,13 +16,13 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ms-auto">
       <li className="nav-item active">
-        <Link smooth={true} to="about" offset={-50} className="nav-link" href="#">About Me<span className="sr-only">(current)</span></Link>
+        <Link smooth={true} to="about" spy={true} offset={-50} duration={1} className="nav-link" href="#">About Me<span className="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item">
-        <Link smooth={true} to="journey" offset={-50} className="nav-link" href="#">My Journey</Link>
+        <Link smooth={true} spy={true} to="journey" offset={-50} duration={1} className="nav-link" href="#">My Journey</Link>
       </li>
       <li className="nav-item">
-        <Link smooth={true} to="techs" offset={-50} className="nav-link" href="#">Technologies</Link>
+        <Link smooth={true} to="techs" spy={true} offset={-50} duration={1} className="nav-link" href="#">Technologies</Link>
       </li>
       {/*
       <li className="nav-item">
@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
       </li>*/}
       <li className="nav-item">
-        <Link smooth={true} to="contact" offset={-50} className="nav-link" href="#">Contact Me</Link>
+        <Link smooth={true} to="contact" spy={true} offset={-50} duration={1} className="nav-link" href="#">Contact Me</Link>
       </li>
 
     </ul>
