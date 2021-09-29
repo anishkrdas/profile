@@ -112,7 +112,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 90vh;
-  background: var(--primary-dark-b);
+  background-color: var(--primary-dark-b);
 }
 
 /*@media(max-width: 768px) {
