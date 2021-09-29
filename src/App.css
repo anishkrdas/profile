@@ -97,11 +97,11 @@ nav ul li {
   border-bottom: 0.1875rem solid var(--primary-orange);
   }
 
-@media(max-width: 768px) {
+/*@media(max-width: 768px) {
   .navbar-brand {
     width: 7rem;
   }
- }
+ }*/
 
 /*************************NAVBAR END | HEADER START********************************/
 
@@ -114,7 +114,7 @@ nav ul li {
   height: 90vh;
 }
 
-@media(max-width: 768px) {
+/*@media(max-width: 768px) {
   .main-info h1 {
     font-size: 1.7rem !important;
   }
@@ -122,7 +122,7 @@ nav ul li {
     font-size: 1.3rem !important;
 
   }
-}
+}*/
 
 .main-info {
   display: flex;
@@ -287,11 +287,11 @@ h1 {
   text-transform: uppercase;
 }
 
-@media(max-width: 468px) {
+/*@media(max-width: 468px) {
   .profile-img {
     width: 10rem;
   }
-}
+}*/
 
 /*************************ABOUT ME END | MY JOURNEY START********************************/
 
@@ -459,7 +459,7 @@ h1 {
   }
 
 
-@media(max-width: 768px) {
+/*@media(max-width: 768px) {
 .experience .container {
   padding-left: 0;
 }
@@ -478,9 +478,9 @@ h1 {
     direction: ltr; 
     width: 100%;
   }
-}
+}*/
 
-@media(max-width: 768px) {
+/*@media(max-width: 768px) {
   .org_img {
     width: 100%;
   }
@@ -502,7 +502,7 @@ h1 {
     .org_img {
       display: none;
     }
-  }
+  }*/
 
 
 .cv-btn {
@@ -673,7 +673,7 @@ textarea .form-control {
 
 
 /*---------------- MEDIA -----------------------*/
-@media(max-width: 768px) {
+/*@media(max-width: 768px) {
   .contacts {
     overflow-x: hidden;
   }
@@ -685,4 +685,4 @@ textarea .form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
-}
+}*/
