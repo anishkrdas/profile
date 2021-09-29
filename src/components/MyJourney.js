@@ -1,7 +1,6 @@
 import React from "react";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
-
 import cts from "../images/orgs/cognizant1.jpg";
 import amdocs from "../images/orgs/amdocs.jpg";
 import techM from "../images/orgs/TechM.jpg";
@@ -227,7 +226,7 @@ const MyJourney = () => {
         const content = (
             <>
             <div className="row">
-            <h2 className="exp_header">Associate Software Engineer</h2><hr/>
+            <h2 className="exp_header">Associate</h2><hr/>
             <div></div>
                 {/*<div className="col-lg-6 col-xm-12">*/}
                 <div className="col-lg-8">

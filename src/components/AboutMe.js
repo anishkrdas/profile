@@ -4,6 +4,7 @@ import Typed from "react-typed";
 
 const AboutMe = () => {
     return (
+        <div className="about">
         <div id = "about" className="container py-5 about">
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
@@ -22,6 +23,7 @@ const AboutMe = () => {
                     backSpeed={45}
                     loop
                 />.</div>
+                <div className="about-me-dets">
                     <p>Focused and smart Software Development Team Leader; is able to motivate development team and identify and remove impediments to turning out quality software applications for customers. Excellent ability to read code and suggest changes to make the finished project glitch-free in addition to holding the below qualities &ndash;</p>
                     <p>
                         <ul>
@@ -34,9 +36,11 @@ const AboutMe = () => {
                         </ul>
 
                     </p>
+                    </div>
                 </div>
             </div>
             
+        </div>
         </div>
     )
 }

@@ -22,6 +22,13 @@ function App() {
               value_area: 900,
             },
           },
+          line_linked:{
+            shadow: {
+              enable: true,
+              color: "#000000",
+
+            }
+          },
           color: {
             value: "#C2482E",
           },

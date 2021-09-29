@@ -26,6 +26,7 @@ const Header = () => {
     }
 
     return (
+        <div className="head">
         <div id = "home" className="header-wraper">
             <div>
             <div className="main-info">
@@ -42,7 +43,6 @@ const Header = () => {
                     strings={["Web Application Developer"]}
                     typeSpeed={40}
                     backSpeed={89}
-                    loop
     /></div>
     <motion.div className="icons-wrapper"
     variants={container}
@@ -65,9 +65,9 @@ const Header = () => {
                     strings={["Programmer"]}
                     typeSpeed={109}
                     backSpeed={109}
-                    loop
     /></div>
     </div>
+            </div>
             </div>
             </div>
         

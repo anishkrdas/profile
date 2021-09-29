@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Jim+Nightshade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
 
 
 :root{
@@ -20,7 +21,12 @@
   --primary-hover-red: #f33501;
   --primary-green: green;
   --primary-drop: rgba(33, 36, 33, 0.836);
-  --primary-sobre: #dbd5cd;
+  --primary-tint: #bdf2f3;
+  --primary-sea-green : #07635e;
+  --primary-background: #126b6b;
+  --primary-details: #031515;
+  --primary-date: #e9fafb;
+  --primary-dark-a: rgb(31, 37, 44);
 }
 
 *{
@@ -131,10 +137,11 @@ nav ul li {
   justify-content: left;
   align-items: left;
   text-align: left;  
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Dangrek', cursive;
   padding-top: 6rem;
   padding-left: 4rem;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .main-info {
@@ -146,21 +153,10 @@ nav ul li {
   bottom: 0;
 }
 .typed-text1 {
-  padding-left: 9.1rem;
+  padding-left: 9.65rem;
 }
 .typed-text2 {
-  padding-left: 2.75rem;
-}
-
-.typed-text{
-  font-size: 2rem;
-  position: relative;
-  background: -webkit-linear-gradient(rgb(6, 1, 78),#c300ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-transform: uppercase;
-  font-family: 'Metal', cursive;
-  font-weight: bold;
+  padding-left: 3.4rem;
 }
 
 .typed-text-static{
@@ -180,8 +176,12 @@ nav ul li {
   position: absolute;
   height: 100vh;
   width: 100vw;
-  z-index: 1;
+  z-index: 10;
   color: #000000;
+}
+
+.head {
+  background: var(--primary-dark-a);
 }
 
 .header-wraper .main-info .text-1{
@@ -195,7 +195,7 @@ nav ul li {
 .header-wraper .main-info .text-2{
   font-size: 1.82rem;
   font-weight: bold;
-  background: -webkit-linear-gradient(rgb(6, 1, 78),#c300ff);
+  background: -webkit-linear-gradient(rgb(6, 236, 167),#c300ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -257,7 +257,13 @@ h1 {
 
 /*************************HEADER END | ABOUT ME START********************************/
 
+.about {
+  background-color: var(--primary-dark-a);
+}
 
+.about-me-dets p {
+  color: var(--primary-white);
+}
 
 .photo-wrap {
   display: flex;
@@ -279,13 +285,24 @@ h1 {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.1rem;
-  color: rgb(6, 1, 78);
+  color: rgb(186, 189, 17);
   padding-top: -1rem;
 }
 
 .about-heading {
   color: var(--primary-orange);
   text-transform: uppercase;
+}
+
+.typed-text{
+  font-size: 2rem;
+  position: relative;
+  background: -webkit-linear-gradient(rgb(5, 186, 218),#c300ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-family: 'Metal', cursive;
+  font-weight: bold;
 }
 
 /*@media(max-width: 468px) {
@@ -298,7 +315,7 @@ h1 {
 
 .experience {
   padding: 0.7rem;
-  background-color: var(--primary-sobre);
+  background-color: var(--primary-background);
 }
 
 .experience-wrapper {
@@ -354,14 +371,14 @@ h1 {
 .timeline-content {
   width: 95%;
   padding: 0 0.9375rem;
-  color: var(--primary-dark-grey);
+  color: var(--primary-details);
   
   font-weight: bolder;
 }
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--primary-red);
+  color: var(--primary-date);
   font-weight: bold;
   font-family: 'Jim Nightshade', cursive;
 }
