@@ -133,8 +133,8 @@ nav ul li {
   text-align: left;  
   font-family: 'Permanent Marker', cursive;
   padding-top: 6rem;
-  padding-left: 4.2rem;
-  font-size: 3rem;
+  padding-left: 4rem;
+  font-size: 2rem;
 }
 
 .main-info {
@@ -146,10 +146,10 @@ nav ul li {
   bottom: 0;
 }
 .typed-text1 {
-  padding-left: 11.4rem;
+  padding-left: 9.1rem;
 }
 .typed-text2 {
-  padding-left: 1.2rem;
+  padding-left: 2.75rem;
 }
 
 .typed-text{
@@ -221,8 +221,8 @@ h1 {
 }
 
 .item {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   margin : 0.7rem;
 }
 
@@ -252,7 +252,7 @@ h1 {
 }
 
 .icons-list {
-  padding-left: 5rem;
+  padding-left: 1rem;
 }
 
 /*************************HEADER END | ABOUT ME START********************************/
@@ -401,7 +401,7 @@ h1 {
 
 .popupbox-wrapper {
   /*background-color: #000000 !important;*/
-  width: 75rem;
+  width: 50rem;
 }
 
 .popupbox-overlay {
@@ -414,6 +414,7 @@ h1 {
   color: var(--primary-black);
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
+  font-size: .8rem;
 
 }
 
@@ -448,13 +449,13 @@ h1 {
   }
   
   .org_img {
-  width: 20rem;
+  width: 15rem;
   
   }
 
   .org-pic {
     position: absolute;
-    left: 75%;
+    left: 80%;
     top: 50%;
     transform: translate(-50%, -50%);
   }

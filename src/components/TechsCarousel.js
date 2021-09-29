@@ -18,7 +18,7 @@ const TechsCarousel = () => {
             showThumbs={false}
             showStatus={false}
             autoPlay={true}
-            interval={650}
+            interval={1000}
             showIndicators={false}
             >
             <>

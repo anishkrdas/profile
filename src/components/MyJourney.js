@@ -15,14 +15,16 @@ const MyJourney = () => {
         const content = (
             <>
             <div className="row">
-                <div className="col-lg-6 col-xm-12">
+                {/*<div className="col-lg-6 col-xm-12">*/}
+                <h2 className="exp_header">Software Development Team Lead</h2><hr/>
+                <div className="col-lg-8">
                     <div className="exp">
-                        <h2 className="exp_header">Software Development Team Lead</h2>
-                        <br/>
+                        
+                        
                         <p className="exp_body">
                             <ul>
                                 <li>
-                                Primary responsibilities include, but are not limited to, technical direction on building large scale software components, overseeing agile software development process, addressing issues and escalations and last but not the least, working with various stakeholders (PM, Business/Operations Leads) on requirement, design and integration of software components. 
+                                Primary responsibilities include, but not limited to, technical direction on building large scale software components, overseeing agile software development process, addressing issues and escalations and last but not the least, working with various stakeholders (PM, Business/Operations Leads) on requirement, design and integration of software components. 
                                 </li><br/>
                                 <li>
                                 Expertise and strength in hiring, leading and growing talent within teams and help build vision that facilitates organizational growth.
@@ -34,7 +36,8 @@ const MyJourney = () => {
                         </p>
                     </div>
                 </div>
-                <div className="col-lg-6 col-xm-12">
+                {/*<div className="col-lg-6 col-xm-12">*/}
+                <div className="col-lg-4">
                 <div className="org-pic" >
                     <img className="org_img" src={cts} alt="cts..."/>
                     </div>
@@ -56,9 +59,11 @@ const MyJourney = () => {
         const content = (
             <>
             <div className="row">
-                <div className="col-lg-6 col-xm-12">
+                {/*<div className="col-lg-6 col-xm-12">*/}
+                <h2 className="exp_header">Software Development Specialist (Acting) &amp; Advanced Software Developer</h2><hr/>
+                <div className="col-lg-8">
                     <div className="exp">
-                        <h2 className="exp_header">Software Development Specialist (Acting) &amp; <br/>Advanced Software Developer</h2><br/>
+                        
                         <p className="exp_body">
                         <ul>
                                 <li>
@@ -77,7 +82,8 @@ const MyJourney = () => {
                         </p>
                     </div>
                 </div>
-                <div className="col-lg-6 col-xm-12">
+                {/*<div className="col-lg-6 col-xm-12">*/}
+                <div className="col-lg-4">
                     <div className="org-pic" >
                         <img className="org_img" src={amdocs} alt="amdocs..."/>
                     </div>
@@ -95,9 +101,11 @@ const MyJourney = () => {
         const content = (
             <>
             <div className="row">
-                <div className="col-lg-6 col-xm-12">
+            <h2 className="exp_header">Advanced Software Developer</h2><hr/>
+                {/*<div className="col-lg-6 col-xm-12">*/}
+                <div className="col-lg-8">
                     <div className="exp">
-                        <h2 className="exp_header">Advanced Software Developer</h2><br/>
+                        
                         <p className="exp_body">
                         <ul>
                                 <li>
@@ -116,7 +124,8 @@ const MyJourney = () => {
                         </p>
                     </div>
             </div>
-                <div className="col-lg-6 col-xm-12">
+                {/*<div className="col-lg-6 col-xm-12">*/}
+                <div className="col-lg-4">
                     <div className="org-pic" >
                         <img className="org_img" src={amdocs} alt="amdocs..."/>
                     </div>
@@ -134,9 +143,11 @@ const MyJourney = () => {
         const content = (
             <>
              <div className="row">
-                <div className="col-lg-6 col-xm-12">
+             <h2 className="exp_header">Experienced Software Developer</h2><br/><hr/>
+                {/*<div className="col-lg-6 col-xm-12">*/}
+                <div className="col-lg-8">
             <div className="exp">
-                <h2 className="exp_header">Experienced Software Developer</h2><br/>
+                
                 <p className="exp_body">
                 <ul>
                         <li>
@@ -158,7 +169,8 @@ const MyJourney = () => {
                 </p>
             </div>
             </div>
-            <div className="col-lg-6 col-xm-12">
+            {/*<div className="col-lg-6 col-xm-12">*/}
+            <div className="col-lg-4">
                     <div className="org-pic" >
                         <img className="org_img" src={amdocs} alt="amdocs..."/>
                     </div>
@@ -176,9 +188,11 @@ const MyJourney = () => {
         const content = (
             <>
             <div className="row">
-                <div className="col-lg-6 col-xm-12">
+            <h2 className="exp_header">Software Engineer</h2><br/><hr/>
+                {/*<div className="col-lg-6 col-xm-12">*/}
+                <div className="col-lg-8">
             <div className="exp">
-                <h2 className="exp_header">Software Engineer</h2><br/>
+                
                 <p className="exp_body">
                 <ul>
                         <li>
@@ -194,7 +208,8 @@ const MyJourney = () => {
                 </p>
             </div>
             </div>
-            <div className="col-lg-6 col-xm-12">
+            {/*<div className="col-lg-6 col-xm-12">*/}
+            <div className="col-lg-4">
                     <div className="org-pic" >
                         <img className="org_img" src={techM} alt="techM..."/>
                     </div>
@@ -212,9 +227,12 @@ const MyJourney = () => {
         const content = (
             <>
             <div className="row">
-                <div className="col-lg-6 col-xm-12">
+            <h2 className="exp_header">Associate Software Engineer</h2><hr/>
+            <div></div>
+                {/*<div className="col-lg-6 col-xm-12">*/}
+                <div className="col-lg-8">
             <div className="exp">
-                <h2 className="exp_header">Software Engineer</h2><br/>
+                
                 <p className="exp_body">
                 <ul>
                         <li>
@@ -230,7 +248,8 @@ const MyJourney = () => {
                 </p>
             </div>
             </div>
-            <div className="col-lg-6 col-xm-12">
+            {/*<div className="col-lg-6 col-xm-12">*/}
+            <div className="col-lg-4">
                     <div className="org-pic" >
                         <img className="org_img" src={techM} alt="techM..."/>
                     </div>
