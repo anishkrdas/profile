@@ -481,7 +481,7 @@ h1 {
 }
 
 @media(max-width: 768px) {
-  .portfolio-image-popupbox {
+  .org_img {
     width: 100%;
   }
 }
@@ -490,8 +490,8 @@ h1 {
 .popupbox-wrapper {
   height: 100%;
 }
-  .portfolio-image-popupbox {
-    width: 50%;
+  .org_img {
+    display: none;
   }
 }
 
@@ -499,8 +499,8 @@ h1 {
   .popupbox-wrapper {
     height: 90%;
   }
-    .portfolio-image-popupbox {
-      width: 30%;
+    .org_img {
+      display: none;
     }
   }
 
