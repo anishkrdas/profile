@@ -413,6 +413,7 @@ h1 {
   width: 22rem;
   height: 2.5rem;
   cursor: pointer;
+  text: "Click me";
   border: 3px solid var(--primary-red);
   margin-top: -.1rem;
   margin-bottom: 5rem;
