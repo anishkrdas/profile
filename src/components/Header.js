@@ -50,20 +50,20 @@ const Header = () => {
     animate='visible'
     >
         <div className = "icons-list" style= {{display: "flex"}}>
-            <motion.div className="item-1 item" variants={item}></motion.div>
-            <motion.div className="item-7 item" variants={item}></motion.div>
-            <motion.div className="item-4 item" variants={item}></motion.div>
-            <motion.div className="item-2 item" variants={item}></motion.div>
             <motion.div className="item-6 item" variants={item}></motion.div>
+            <motion.div className="item-2 item" variants={item}></motion.div>
+            <motion.div className="item-7 item" variants={item}></motion.div>
+            <motion.div className="item-1 item" variants={item}></motion.div>
             <motion.div className="item-5 item" variants={item}></motion.div>
             <motion.div className="item-3 item" variants={item}></motion.div>
             <motion.div className="item-8 item" variants={item}></motion.div>
+            {/*<motion.div className="item-4 item" variants={item}></motion.div>*/}
         </div>
 </motion.div>
 <div className="header-text1"><Typed 
                     className="typed-text1"
                     strings={["Programmer"]}
-                    typeSpeed={109}
+                    typeSpeed={108}
                     backSpeed={109}
     /></div>
     </div>
