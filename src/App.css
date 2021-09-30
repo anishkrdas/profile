@@ -24,6 +24,7 @@
   --primary-details: #031515;
   --primary-date: #e9fafb;
   --primary-dark-a: rgb(31, 37, 44);
+  --primary-drop-b: #08555575;
 
   --experience-background: #b4a6d1;
   --about-me-background: #aa9b7f;
@@ -667,14 +668,13 @@ h1 {
   border: none;
   border-bottom: 0.125rem solid var(--primary-white);
   border-radius: 0;
-  color: var(--primary-details);
+  color: var(--primary-black);
   outline: 0 !important;
   box-shadow: none !important;
   top: 0;
   margin-bottom: 1rem;
   padding-left: 0 !important;
   font-family: 'Dangrek', cursive;
-
 
   /*  margin-top: 3.7%;
   position: relative;
@@ -690,8 +690,8 @@ h1 {
 
 .contacts input:focus, .contacts textarea:focus {
   background: transparent;
-  color: var(--primary-black);
-  border-bottom: 0.125rem solid var(--primary-dark-b);
+  color: rgb(61, 61, 61);
+  border-bottom: 0.125rem solid var(--primary-details);
   font-family: 'Dangrek', cursive;
 }
 
@@ -719,13 +719,15 @@ h1 {
   
   font-family: 'Dangrek', cursive;
   text-transform: uppercase;
-  color: var(--primary-dark-grey);
+  text-align: left;
+  color: var(--primary-drop-b) !important;
 }
 
 input:focus+.line, textarea:focus+.line {
   width: 100%;
   transition: width 0.5s ease-in-out;
 }
+
 
 input .form-control {
   margin: -0.3rem 0;
