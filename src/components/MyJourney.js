@@ -274,7 +274,7 @@ const MyJourney = () => {
                         </div>
                         <div className="timeline-content">
                             <h3>Dec. 2020&nbsp;&ndash;&nbsp;Present</h3>
-                            <p>Senoir Associate - Projects<br/>(Software Development Team Lead)<br/>
+                            <p>Senior Associate - Projects<br/>(Software Development Team Lead)<br/>
                             <b>Cognizant Digital Engineering<br/>
                             Cognizant Technology Solutions</b></p>
                         </div> 
