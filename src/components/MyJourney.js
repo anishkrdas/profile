@@ -5,8 +5,8 @@ import cts from "../images/orgs/cognizant1.jpg";
 import amdocs from "../images/orgs/amdocs.jpg";
 import techM from "../images/orgs/TechM.jpg";
 import cv from "../misc/AnishKumaDas_CurriculumVitae.pdf";
-import  {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
+/*import  {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";*/
 
 const MyJourney = () => {
 
@@ -266,7 +266,7 @@ const MyJourney = () => {
     return (
         <div id = "journey" className="experience">
             <div className="d-flex justify-content-center my-5">
-            <h1>My Journey</h1>
+            <h1 className="experience-heading">My Journey</h1>
             </div>
             <div className="container experience-wrapper">
                 <div className="timeline-block timeline-block-right cts_tl" >
@@ -278,8 +278,8 @@ const MyJourney = () => {
                             <b>Cognizant Digital Engineering<br/>
                             Cognizant Technology Solutions</b></p>
                         </div> 
-                        <div className="overflow" onClick={openPopupbox_cts_tl}></div>
-                        <FontAwesomeIcon className = "tool-icon-right" icon={faSearchPlus}/>
+                        <div className="overflow" onClick={openPopupbox_cts_tl}><span className="click-text">Click to expand</span></div>
+                        {/*<FontAwesomeIcon className = "tool-icon-right" icon={faSearchPlus}/>*/}
                 </div>
                 {/* --*/}
                 <div className="timeline-block timeline-block-left dvci_asd_rd">
@@ -291,8 +291,8 @@ const MyJourney = () => {
                             <b>Amdocs R&amp;D<br/>
                             Amdocs Development Center India</b></p>
                         </div>
-                        <div className="overflow" onClick={openPopupbox_dvci_asd_rd}></div>
-                        <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/>
+                        <div className="overflow" onClick={openPopupbox_dvci_asd_rd}><span className="click-text">Click to expand</span></div>
+                        {/* <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/> */}
                 </div>
                 {/* --*/}
                 <div className="timeline-block timeline-block-right dvci_asd">
@@ -304,8 +304,8 @@ const MyJourney = () => {
                             <b>Amdocs Development<br/>
                             Amdocs Development Center India</b></p>
                         </div>
-                        <div className="overflow" onClick={openPopupbox_dvci_asd}></div>
-                        <FontAwesomeIcon className = "tool-icon-right" icon={faSearchPlus}/>
+                        <div className="overflow" onClick={openPopupbox_dvci_asd}><span className="click-text">Click to expand</span></div>
+                        {/*<FontAwesomeIcon className = "tool-icon-right" icon={faSearchPlus}/>*/}
                 </div>
                 {/* --*/}
                 <div className="timeline-block timeline-block-left dvci_esd">
@@ -317,8 +317,8 @@ const MyJourney = () => {
                         <b>Amdocs Delivery<br/>
                         Amdocs Development Center India</b></p>
                     </div>
-                    <div className="overflow" onClick={openPopupbox_dvci_esd}></div>
-                    <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/>
+                    <div className="overflow" onClick={openPopupbox_dvci_esd}><span className="click-text">Click to expand</span></div>
+                    {/* <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/> */}
                 </div>
                 
                 {/* --*/}
@@ -330,8 +330,8 @@ const MyJourney = () => {
                         <p>Software Engineer<br/>
                         <b>Tech Mahindra Limited</b></p>
                     </div>
-                    <div className="overflow" onClick={openPopupbox_se_tml}></div>
-                    <FontAwesomeIcon className = "tool-icon-right" icon={faSearchPlus}/>
+                    <div className="overflow" onClick={openPopupbox_se_tml}><span className="click-text">Click to expand</span></div>
+                   {/* <FontAwesomeIcon className = "tool-icon-right" icon={faSearchPlus}/>*/}
                 </div>
                 {/* --*/}
                 <div className="timeline-block timeline-block-left ase_tml">
@@ -342,8 +342,8 @@ const MyJourney = () => {
                         <p>Associate Software Engineer<br/>
                         <b>Tech Mahindra Limited</b></p>
                     </div>
-                    <div className="overflow" onClick={openPopupbox_ase_tm}></div>
-                    <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/>
+                    <div className="overflow" onClick={openPopupbox_ase_tm}><span className="click-text">Click to expand</span></div>
+                    {/* <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/> */}
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfig_cts_tl}/>

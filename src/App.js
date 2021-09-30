@@ -16,7 +16,7 @@ function App() {
       params={{
         particles:{
           number: {
-            value: 45,
+            value: 40,
             density: {
               enable: true,
               value_area: 900,
@@ -25,12 +25,12 @@ function App() {
           line_linked:{
             shadow: {
               enable: true,
-              color: "#000000",
+              color: "#916666",
 
             }
           },
           color: {
-            value: "#C2482E",
+            value: "#ff0000",
           },
         },
         "interactivity": {

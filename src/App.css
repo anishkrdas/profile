@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Jim+Nightshade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
 
 
@@ -29,10 +25,12 @@
   --primary-date: #e9fafb;
   --primary-dark-a: rgb(31, 37, 44);
 
-  --experience-background: #ceb8fc;
-  --about-me-background: #a5a590;
-  --about-me-img-text: #0000ff;
+  --experience-background: #b4a6d1;
+  --about-me-background: #aa9b7f;
+  --about-me-img-text: #5f2d20;
   --contact-me-background: #6a869f;
+  --header-text: #244980;
+  
 }
 
 *{
@@ -67,7 +65,7 @@ nav ul li {
   margin-left: 0.75rem;
   color: var(--primary-orange) !important;
   border-top: 0.1875rem solid var(--primary-dark);
-  font-family: 'Sirin Stencil', cursive;
+  font-family: 'Dangrek', cursive;
   font-size: 1.3rem;
 }
 
@@ -99,7 +97,7 @@ nav ul li {
 
 .dropdown-item {
   color: var(--primary-orange) !important;
-  font-family: 'Sirin Stencil', cursive;
+  font-family: 'Dangrek', cursive;
   font-size: 1.3rem;
 }
 
@@ -120,10 +118,10 @@ nav ul li {
 .header-wraper {
   margin-top: 3.7%;
   position: relative;
-  background: url(images/main/banner.jpg) no-repeat;
+  background: url(images/main/banner1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   background-color: var(--primary-dark-b);
 }
 
@@ -145,7 +143,7 @@ nav ul li {
   text-align: left;  
   font-family: 'Dangrek', cursive;
   padding-top: 6rem;
-  padding-left: 4rem;
+  padding-left: 3rem;
   font-size: 2rem;
   text-transform: uppercase;
 }
@@ -166,10 +164,10 @@ nav ul li {
 }
 
 .typed-text-static{
-  font-size: 2rem;
-  font-family: 'Dangrek', cursive;
+  font-size: 1.6rem;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
-  color: var(--primary-black);
+  color: var(--about-me-img-text);
   position: relative;
 }
 
@@ -185,6 +183,7 @@ nav ul li {
   width: 100vw;
   z-index: 10;
   color: #000000;
+  z-index:2;
 }
 
 .head {
@@ -216,7 +215,7 @@ nav ul li {
 
 
 h1 {
-  font-family: 'Sirin Stencil', cursive;
+  font-family: 'Dangrek', cursive;
 }
 
 .icons-wrapper {
@@ -268,6 +267,11 @@ h1 {
   background-color: var(--about-me-background);
 }
 
+.about-heading {
+  font-family: 'Dangrek', cursive;
+  color: var(--header-text) !important;
+}
+
 .about-me-dets p {
   color: var(--primary-dark-b);
   font-family: 'David Libre', serif;
@@ -301,18 +305,17 @@ h1 {
 }
 
 .about-heading {
-  color: var(--primary-orange);
   text-transform: uppercase;
 }
 
 .typed-text{
-  font-size: 2rem;
+  font-size: 1.6rem;
   position: relative;
-  background: -webkit-linear-gradient(black,#c300ff);
+  background: -webkit-linear-gradient(rgb(53, 65, 33),#041436);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  font-family: 'Metal', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
 
@@ -327,6 +330,11 @@ h1 {
 .experience {
   padding: 0.7rem;
   background-color: var(--experience-background);
+}
+
+.experience-heading {
+  font-family: 'Dangrek', cursive;
+  color: var(--header-text) !important;
 }
 
 .experience-wrapper {
@@ -382,16 +390,16 @@ h1 {
 .timeline-content {
   width: 95%;
   padding: 0 0.9375rem;
-  color: var(--primary-details);
-  
+  color: var(--primary-dark-b);
   font-weight: bolder;
 }
 
 .timeline-content h3 {
-  margin-top: 0.3125rem;
+  margin-top: 0.15rem;
   color: var(--about-me-img-text);
   font-weight: bold;
-  font-family: 'Jim Nightshade', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.65rem;
 }
 
 /*.overflow{
@@ -410,20 +418,29 @@ h1 {
   position: absolute;
   opacity: 0;
   background: var(--primary-black);
-  width: 22rem;
+  width: 21.37rem;
   height: 2.5rem;
   cursor: pointer;
-  text: "Click me";
   border: 3px solid var(--primary-red);
-  margin-top: -.1rem;
+  margin-top: -.2rem;
   margin-bottom: 5rem;
   border-radius: 7%;
 
 }
 
+.click-text{
+  position: relative;
+  text-align: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  font-family: 'Josefin Sans', sans-serif !important;
+  color: var(--primary-hover-red);
+  font-size: 1rem;
+}
+
 
 .timeline-block:hover .overflow {
-  opacity: 60%;
+  opacity: 93%;
   transition: 0.3s ease-in-out;
 }
 
@@ -440,7 +457,7 @@ h1 {
 
 .exp_body {
   
-  font-family: 'Autour One', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   color: var(--primary-black);
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
@@ -449,16 +466,17 @@ h1 {
 }
 
 .exp_header {
-  font-family: 'Jim Nightshade', cursive;
+  font-family: 'David Libre', serif;
   color: var(--primary-red);
   text-align: center;
   font-weight: bolder;
+  font-size: 1.4rem;
 }
 
 .tool-icon-right {
   position: absolute;
   opacity: 1;
-  margin-left: 20rem;
+  margin-left: 21rem;
   margin-top: .35rem;
   color: var(--primary-black);
   font-size: 1.5rem;
@@ -467,7 +485,7 @@ h1 {
 .tool-icon {
   position: absolute;
   opacity: 1;
-  margin-right: 20rem;
+  margin-right: 21rem;
   margin-top: .35rem;
   color: var(--primary-black);
   font-size: 1.5rem;
@@ -541,9 +559,9 @@ h1 {
   border: 3px solid var(--primary-red);
   border-radius: 50rem;
   padding: 0.625rem 0.625rem 0.625rem 0.625rem;
-  font-family: 'Jim Nightshade', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 2rem;
 }
 

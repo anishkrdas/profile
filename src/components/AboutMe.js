@@ -15,7 +15,7 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">about me</h1><br/>
-                    <div className="typed-text-static">I'm Anish and I'm a&nbsp;&nbsp;
+                    <div className="typed-text-static">I'm Anish and I'm a&nbsp;
                     <Typed 
                     className="typed-text"
                     strings={["Fullstack Developer", "Web Designer", "Team Lead", "Gamer", "Freelancer"]}
