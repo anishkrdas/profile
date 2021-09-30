@@ -118,11 +118,10 @@ nav ul li {
 .header-wraper {
   margin-top: 3.7%;
   position: relative;
-  background: url(images/main/banner1.jpg) no-repeat;
+  background: url(images/main/banner.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-color: var(--primary-dark-b);
 }
 
 /*@media(max-width: 768px) {
@@ -621,8 +620,11 @@ h1 {
 /*************************TECHS END | CONTACTS START********************************/
 
 .contacts {
-  background: var(--primary-dark-transparent);
-  padding: 3rem 0;
+  background: url(images/main/contact.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 1rem 0;
 }
 
 .contacts h1 {
@@ -641,8 +643,9 @@ h1 {
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: var(--primary-black);
   margin: 2rem;
+  font-weight: bold;
 }
 
 .btn-main-offer:hover {
@@ -654,6 +657,8 @@ h1 {
 
 /*---------------------INPUTS------------------------*/
 
+
+
 .contacts input, .contacts textarea {
   width: 100%;
   box-sizing: border-box;
@@ -662,13 +667,21 @@ h1 {
   border: none;
   border-bottom: 0.125rem solid var(--primary-white);
   border-radius: 0;
-  color: var(--primary-sky);
+  color: var(--primary-details);
   outline: 0 !important;
   box-shadow: none !important;
   top: 0;
   margin-bottom: 1rem;
   padding-left: 0 !important;
   font-family: 'Dangrek', cursive;
+
+
+  /*  margin-top: 3.7%;
+  position: relative;
+  background: url(images/main/banner1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;*/
 }
 
 .contacts .container {
@@ -677,7 +690,7 @@ h1 {
 
 .contacts input:focus, .contacts textarea:focus {
   background: transparent;
-  color: var(--primary-sea-green);
+  color: var(--primary-black);
   border-bottom: 0.125rem solid var(--primary-dark-b);
   font-family: 'Dangrek', cursive;
 }
@@ -706,7 +719,7 @@ h1 {
   
   font-family: 'Dangrek', cursive;
   text-transform: uppercase;
-  color: var(--primary-tint);
+  color: var(--primary-dark-grey);
 }
 
 input:focus+.line, textarea:focus+.line {
@@ -723,7 +736,7 @@ textarea .form-control {
 }
 
 .error-message {
-  color: var(--primary-orange);
+  color: var(--primary-red);
   text-align: left;
   font-family: 'Dangrek', cursive;
   text-transform: uppercase;
