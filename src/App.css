@@ -407,8 +407,6 @@ hr .hr-about {
 .experience {
   padding: 0.7rem;
   background: url(images/main/experience.jpg) no-repeat;
-  margin-left: 2rem;
-  margin-right: 2rem;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -418,8 +416,8 @@ hr .hr-about {
   
 .experience-block {
   background: var(--back-colour);
-  margin-left: 23rem;
-  margin-right: 23rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
 }
 
 .experience-heading {
@@ -675,8 +673,6 @@ hr .hr-about {
   text-align: center;
   padding-bottom: 4rem;
   margin-bottom: 0;
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 .techs h1 {
