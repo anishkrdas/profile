@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
 
 
 :root{
@@ -26,11 +31,13 @@
   --primary-dark-a: rgb(31, 37, 44);
   --primary-drop-b: #08555575;
 
-  --experience-background: #b4a6d1;
-  --about-me-background: #aa9b7f;
+  --experience-background: #FFFEE0;
+  --about-me-background: #FFFEE0;
   --about-me-img-text: #5f2d20;
   --contact-me-background: #6a869f;
   --header-text: #244980;
+
+  --back-colour: #FFFEE0;
   
 }
 
@@ -61,17 +68,24 @@ nav ul li {
   
 }
 
+.navbar {
+  width:37% !important;
+  background: #FFFEE0;
+  height: 3rem;
+}
+
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-orange) !important;
+  color: var(--primary-black) !important;
   border-top: 0.1875rem solid var(--primary-dark);
-  font-family: 'Dangrek', cursive;
+  font-family: 'David Libre', serif;
+  font-weight: bolder;
   font-size: 1.3rem;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.15rem solid var(--primary-orange);
 }
 
 .navbar-nav > li > a:hover {
@@ -117,12 +131,19 @@ nav ul li {
 /*************************NAVBAR END | HEADER START********************************/
 
 .header-wraper {
-  margin-top: 3.7%;
   position: relative;
   background: url(images/main/banner.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
+  margin-top: 3rem !important;
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+  margin-bottom: 3rem !important;
+  background-attachment: fixed !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*@media(max-width: 768px) {
@@ -187,7 +208,7 @@ nav ul li {
 }
 
 .head {
-  background: var(--primary-dark-a);
+  background: var(--back-colour);
 }
 
 .header-wraper .main-info .text-1{
@@ -214,9 +235,7 @@ nav ul li {
 }
 
 
-h1 {
-  font-family: 'Dangrek', cursive;
-}
+
 
 .icons-wrapper {
   display: flex;
@@ -267,9 +286,31 @@ h1 {
   background-color: var(--about-me-background);
 }
 
+.about-this {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height:1.1em;
+  margin-left: -6rem;
+}
+
+.about-story{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height:1.1em;
+  margin-left: -6rem;
+}
+
+
 .about-heading {
-  font-family: 'Dangrek', cursive;
-  color: var(--header-text) !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 900;
+  color: var(--primary-black) !important;
+  margin-left: -6rem;
+}
+
+.about-me-dets{
+  margin-top: 4rem;
 }
 
 .about-me-dets p {
@@ -277,13 +318,36 @@ h1 {
   font-family: 'David Libre', serif;
   font-weight: bolder;
   font-size: 1.1rem;
+  margin-left: -6rem;
 }
 
 .photo-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../src/images/main/me.jpg");
+  height: 35rem;
+  width: 45rem;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 28%;
+  background-position-x: 20%;
+  background-position-y: center;
+  -webkit-animation: 2.5s linear 0s infinite alternate move_eye;
+          animation: 2.5s linear 0s infinite alternate move_eye;
 }
+
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+
+
+
+hr .hr-about {
+  margin-right: 2rem !important;
+}
+
 .profile-img {
   width: 16rem;
   border-radius: 50%;
@@ -295,28 +359,41 @@ h1 {
   padding-top: 2rem;
 }
 
-.imageDesc {
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.14rem;
-  color: var(--about-me-img-text);
-  padding-top: -1rem;
-  font-weight: bold;
+.desc-wrapper {
+  margin-left: 7rem;
+  margin-right: 2rem;
+  text-align: left;
 }
 
-.about-heading {
-  text-transform: uppercase;
+.about .container {
+  overflow: hidden;
+}
+
+.imageDesc {
+  text-align: left !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 1rem !important;
+  color: var(--about-me-img-text) !important;
+  padding-top: -1rem !important;
+  font-weight: bold !important;
+  background:var(--back-colour) !important;
 }
 
 .typed-text{
-  font-size: 1.6rem;
-  position: relative;
+  font-size: 1.5rem;
+  position: absolute;
   background: -webkit-linear-gradient(rgb(53, 65, 33),#041436);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  text-align: center;
+  margin-left: 6.5rem;
+}
+
+.test {
+  margin-left: -120rem;
 }
 
 /*@media(max-width: 468px) {
@@ -329,7 +406,20 @@ h1 {
 
 .experience {
   padding: 0.7rem;
-  background-color: var(--experience-background);
+  background: url(images/main/experience.jpg) no-repeat;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  
+.experience-block {
+  background: var(--back-colour);
+  margin-left: 23rem;
+  margin-right: 23rem;
 }
 
 .experience-heading {
@@ -392,6 +482,7 @@ h1 {
   padding: 0 0.9375rem;
   color: var(--primary-dark-b);
   font-weight: bolder;
+  
 }
 
 .timeline-content h3 {
@@ -450,7 +541,7 @@ h1 {
 
 
 .popupbox-wrapper {
-  /*background-color: #000000 !important;*/
+  /*background-color: #FFFEE0 !important;*/
   width: 50rem;
 }
 
@@ -584,7 +675,8 @@ h1 {
   text-align: center;
   padding-bottom: 4rem;
   margin-bottom: 0;
-  width: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .techs h1 {
@@ -604,8 +696,8 @@ h1 {
   background: transparent;
   margin-top: -6%;
   width: 54%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
   padding-top: 6%;
   padding-bottom: 8%;
   padding-left: 5%;
@@ -626,12 +718,19 @@ h1 {
   background-position: center;
   height: 100vh;
   padding: 1rem 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contacts h1 {
-  color: var(--primary-orange);
+  color: var(--primary-black);
   padding: 1.3rem 0;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  margin-top: 2rem;
 }
 
 .contacts p {
@@ -639,9 +738,15 @@ h1 {
   font-size: 1.2rem;
 }
 
+.text-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+
+
 .btn-main-offer {
   border: 1px solid var(--primary-red);
-  text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-black);

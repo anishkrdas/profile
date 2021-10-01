@@ -266,8 +266,9 @@ const MyJourney = () => {
     return (
         <div id = "journey" className="experience">
             <div className="d-flex justify-content-center my-5">
-            <h1 className="experience-heading">My Journey</h1>
+            {/*<h1 className="experience-heading">My Journey</h1> */}
             </div>
+            <div className = "experience-block">
             <div className="container experience-wrapper">
                 <div className="timeline-block timeline-block-right cts_tl" >
                         <div className="marker">
@@ -345,6 +346,7 @@ const MyJourney = () => {
                     <div className="overflow" onClick={openPopupbox_ase_tm}><span className="click-text">Click to expand</span></div>
                     {/* <FontAwesomeIcon className = "tool-icon" icon={faSearchPlus}/> */}
                 </div>
+            </div>
             </div>
             <PopupboxContainer {...popupboxConfig_cts_tl}/>
             <PopupboxContainer {...popupboxConfig_dvci_asd_rd}/>

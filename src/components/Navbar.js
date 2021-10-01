@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
-<nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+<nav className="navbar navbar-expand-lg navbar-cust fixed-top">
   <div className="container">
 
   <a className="navbar-brand" href="#"></a>
@@ -14,18 +14,17 @@ const Navbar = () => {
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav ms-auto">
+    <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <Link smooth={true} to="about" spy={true} offset={-50} duration={1} className="nav-link" href="#">About Me<span className="sr-only">(current)</span></Link>
+        <Link smooth={true} to="about" spy={true} offset={-50} duration={1} className="nav-link" href="#">About<span className="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item">
-        <Link smooth={true} spy={true} to="journey" offset={-50} duration={1} className="nav-link" href="#">My Journey</Link>
+        <Link smooth={true} spy={true} to="journey" offset={-50} duration={1} className="nav-link" href="#">Profile</Link>
       </li>
       <li className="nav-item">
         <Link smooth={true} to="techs" spy={true} offset={-50} duration={1} className="nav-link" href="#">Technologies</Link>
       </li>
-      {/*
-      <li className="nav-item">
+      {/*<li className="nav-item">
         <Link smooth={true} to="whatIDo" offset={-50} className="nav-link" href="#">Grinds</Link>
       </li>
         <li class="nav-item dropdown ">
@@ -37,9 +36,9 @@ const Navbar = () => {
         <Link smooth={true} to="contact" offset={-50} class="dropdown-item" href="#">Gaming</Link>
           <Link smooth={true} to="contact" offset={-50} class="dropdown-item" href="#">Misc Items</Link>
         </div>
-      </li>*/}
+    </li>*/}
       <li className="nav-item">
-        <Link smooth={true} to="contact" spy={true} offset={-50} duration={1} className="nav-link" href="#">Contact Me</Link>
+        <Link smooth={true} to="contact" spy={true} offset={-50} duration={1} className="nav-link" href="#">Contact</Link>
       </li>
 
     </ul>

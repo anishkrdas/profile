@@ -29,7 +29,7 @@ const Contacts = () => {
     return (
         <div id = "contact" className="contacts">
             <div className="text-center">
-            <h1>contact me</h1>
+            <h1><b>touch</b>&nbsp;base</h1>
             <span className="success-message">{successMessage}</span>
             </div>
             <div className="container">
@@ -135,7 +135,7 @@ const Contacts = () => {
                         <span className="error-message">
                             {errors.description && errors.description.message}
                         </span>
-                        <button className="btn-main-offer contact-btn" type="submit">contact me</button>
+                        <button className="btn-main-offer contact-btn" type="submit">Drop me an email!</button>
                     </div>
                 </div>
                 </form>

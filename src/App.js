@@ -29,9 +29,6 @@ function App() {
 
             }
           },
-          color: {
-            value: "#ff0000",
-          },
         },
         "interactivity": {
             "events": {
