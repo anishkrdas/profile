@@ -23,8 +23,8 @@ const Contacts = () => {
     
         emailjs.send(emailServiceID, emailTemplateID, vars, emailUserID)
           .then(() => {
-              setSuccessMessage("Thanks for your message! I've received the notification! I will contact you as soon as possible.");
-          }).catch(err => console.error(`Something went wrong ${err}`));
+              setSuccessMessage("!!!  Thank you for your message! I've received the notification! I will contact you as soon as possible  !!!");
+          }).catch(err => console.error(`!!!  Something went wrong ${err} !!!`));
       }
 
 
@@ -33,6 +33,11 @@ const Contacts = () => {
             <div className="text-center">
             <h1><b>touch</b>&nbsp;base</h1>
             <span className="success-message">{successMessage}</span>
+            <span className="error-message">{errors.name && errors.name.message}</span>
+            <span className="error-message">{errors.phone && errors.phone.message}</span>
+            <span className="error-message">{errors.email && errors.email.message}</span>
+            <span className="error-message">{errors.subject && errors.subject.message}</span>
+            <span className="error-message">{errors.description && errors.description.message}</span>
             </div>
             <div className="container">
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -47,15 +52,13 @@ const Contacts = () => {
                             name="name" required
                             ref={
                                 register({
-                                    required : "Please enter your name."
+                                    required : "!!!  Please enter your name  !!!"
                                 })
                             }
                         />
                         <div className="line"></div>
                         </div>
-                        <span className="error-message">
-                            {errors.name && errors.name.message}
-                        </span>
+                        
                         <div className="text-center">
                         <input
                             id="phone"
@@ -67,15 +70,13 @@ const Contacts = () => {
                                 register({
                                     pattern: {
                                       value: /^[0-9]{10}$/,
-                                      message: "Please provide a valid phone number"
+                                      message: "!!!  Please provide a valid phone number  !!!"
                                     }
                                 })
                             }
                         />
                         <div className="line"></div></div>
-                        <span className="error-message">
-                            {errors.phone && errors.phone.message}
-                        </span>
+                        
                         <div className="text-center">
                         <input
                             id="email"
@@ -85,18 +86,16 @@ const Contacts = () => {
                             name="email" required
                             ref={
                               register({
-                                  required : "Please provide me with your email address.",
+                                  required : "!!!  Please provide me with your email address  !!!",
                                   pattern: {
                                     value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                                    message: "Please provide a valid email id"
+                                    message: "!!!  Please provide a valid email id  !!!"
                                   }
                               })
                           }
                         />
                         <div className="line"></div></div>
-                        <span className="error-message">
-                            {errors.email && errors.email.message}
-                        </span>
+                        
                         <div className="text-center">
                         <input
                             id="subject"
@@ -106,15 +105,13 @@ const Contacts = () => {
                             name="subject" required
                             ref={
                               register({
-                                  required : "Please add a subject."
+                                  required : "!!!  Please add a subject  !!!"
                               })
                           }
                         />
                         <div className="line"></div>
                     </div>                    
-                    <span className="error-message">
-                            {errors.subject && errors.subject.message}
-                        </span>
+                    
                         <a href={cv} download="AnishKumaDas_CurriculumVitae.pdf"><button className="cv-offer cv-btn" type="button">Download my Curriculum Vitae</button></a>
                         </div>
                     <div className="col-md-6 col-xs-12">
@@ -124,18 +121,16 @@ const Contacts = () => {
                             id="description"
                             type="text"
                             className="form-control"
-                            placeholder="Kindly brief me about your requirement *"
+                            placeholder="Message ... *"
                             name="description" required
                             ref={
                               register({
-                                  required : "Please brief me your requirement."
+                                  required : "!!!  Please brief me your requirement  !!!"
                               })
                           }
                         ></textarea>
                         <div className="line"></div></div>
-                        <span className="error-message">
-                            {errors.description && errors.description.message}
-                        </span>
+                        
                         <button className="btn-main-offer contact-btn" type="submit">Drop me an email!</button>
                     </div>
                 </div>
