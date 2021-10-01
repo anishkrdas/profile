@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
+import cv from "../misc/AnishKumaDas_CurriculumVitae.pdf";
+
 const Contacts = () => {
 
     const {register, handleSubmit, errors} = useForm();
@@ -42,12 +44,10 @@ const Contacts = () => {
                             type="text"
                             className="form-control"
                             placeholder="Name *"
-                            name="name"
+                            name="name" required
                             ref={
                                 register({
-                                    required : "Please enter your name.",
-                                    maxLength : 25,
-                                    message : "Name can be of lenght 25 characters only."
+                                    required : "Please enter your name."
                                 })
                             }
                         />
@@ -62,7 +62,7 @@ const Contacts = () => {
                             type="text"
                             className="form-control"
                             placeholder="Phone Number"
-                            name="phone"
+                            name="phone" 
                             ref={
                                 register({
                                     pattern: {
@@ -82,7 +82,7 @@ const Contacts = () => {
                             type="email"
                             className="form-control"
                             placeholder="Email *"
-                            name="email"
+                            name="email" required
                             ref={
                               register({
                                   required : "Please provide me with your email address.",
@@ -103,7 +103,7 @@ const Contacts = () => {
                             type="text"
                             className="form-control"
                             placeholder="Subject *"
-                            name="subject"
+                            name="subject" required
                             ref={
                               register({
                                   required : "Please add a subject."
@@ -115,6 +115,7 @@ const Contacts = () => {
                     <span className="error-message">
                             {errors.subject && errors.subject.message}
                         </span>
+                        <a href={cv} download="AnishKumaDas_CurriculumVitae.pdf"><button className="cv-offer cv-btn" type="button">Download my Curriculum Vitae</button></a>
                         </div>
                     <div className="col-md-6 col-xs-12">
                         
@@ -124,7 +125,7 @@ const Contacts = () => {
                             type="text"
                             className="form-control"
                             placeholder="Kindly brief me about your requirement *"
-                            name="description"
+                            name="description" required
                             ref={
                               register({
                                   required : "Please brief me your requirement."

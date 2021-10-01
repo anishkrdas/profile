@@ -1,11 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
+
+
+
 const Navbar = () => {
+
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "../components/collapseNav.js";
+    script.async = true;
+    document.body.appendChild(script);
+  return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
+
     return (
-<nav className="navbar navbar-expand-lg navbar-cust fixed-top">
+<nav id = "navBar" className="navbar navbar-expand-lg navbar-cust fixed-top">
   <div className="container">
 
   <a className="navbar-brand" href="#"></a>
@@ -14,7 +30,7 @@ const Navbar = () => {
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav mr-auto">
+    <ul className="navbar-nav mr-auto nav-center">
       <li className="nav-item active">
         <Link smooth={true} to="about" spy={true} offset={-47} duration={1} className="nav-link" href="#">About<span className="sr-only">(current)</span></Link>
       </li>

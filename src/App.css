@@ -61,17 +61,27 @@ nav a.nav.link {
   cursor: pointer;
 }
 
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
 nav ul li {
   text-transform: uppercase;
   
 }
 
 .navbar {
-  width:100% !important;
+  width:70% !important;
   background: #FFFEE0;
   height: 2.95rem;
-  opacity: 85%;
+  margin-left: 15%;
 }
+
+
+
+
 
 .navbar-nav > li > a {
   margin-right: 1%;
@@ -519,8 +529,6 @@ hr .hr-about {
   transition: 0.3s ease-in-out;
 }
 
-
-
 .popupbox-wrapper {
   /*background-color: #FFFEE0 !important;*/
   width: 53%;
@@ -630,24 +638,6 @@ hr .hr-about {
   }*/
 
 
-.cv-btn {
-  border: 3px solid var(--primary-red);
-  border-radius: 50rem;
-  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin: 2rem;
-}
-
-.cv-btn:hover {
-  text-decoration: none;
-  background-color: var(--primary-hover-red);
-  color: var(--primary-white);
-  transition:  .2s ease-in-out;
-}
-
-
 /*************************MY JOURNEY END | TECHS START********************************/
 .techs {
   background-image: url(images/main/black.jpg);
@@ -717,20 +707,37 @@ hr .hr-about {
   font-size: 1.2rem;
 }
 
-
-.btn-main-offer {
-  border: 1px solid var(--primary-red);
+.cv-offer {
+  border: 1px solid var(--primary-black);
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-black);
   margin: 2rem;
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cv-offer:hover {
+  text-decoration: none;
+  background-color: var(--back-colour);
+  color: var(--primary-black);
+  transition:  .2s ease-in-out;
+}
+
+.btn-main-offer {
+  border: 1px solid var(--primary-black);
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-black);
+  margin: 2rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
-  color: var(--primary-white);
+  background-color: var(--back-colour);
+  color: var(--primary-black);
   transition:  .2s ease-in-out;
 }
 
@@ -782,7 +789,13 @@ hr .hr-about {
 .contact-btn {
   margin: 1rem 0 0 0;
   width: 100%;
-  background: none;
+  background: var(--back-colour);
+}
+
+.cv-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: var(--back-colour);
 }
 
 
@@ -827,9 +840,10 @@ textarea .form-control {
 
 .success-message {
   font-weight: 900;
-  color: var(--primary-green);
+  color: var(--primary-black);
   font-family: 'David Libre', serif;
   text-transform: uppercase;
+  background: var(--primary-green);
 }
 
 

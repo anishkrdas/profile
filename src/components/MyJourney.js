@@ -4,7 +4,6 @@ import "react-popupbox/dist/react-popupbox.css";
 import cts from "../images/orgs/cognizant1.jpg";
 import amdocs from "../images/orgs/amdocs.jpg";
 import techM from "../images/orgs/TechM.jpg";
-import cv from "../misc/AnishKumaDas_CurriculumVitae.pdf";
 /*import  {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";*/
 
@@ -354,7 +353,6 @@ const MyJourney = () => {
             <PopupboxContainer {...popupboxConfig_dvci_esd}/>
             <PopupboxContainer {...popupboxConfig_se_tml}/>
             <PopupboxContainer {...popupboxConfig_ase_tm}/>
-            <a href={cv} download="AnishKumaDas_CurriculumVitae.pdf"><button className="cv-btn contact-btn">Download my Curriculum Vitae</button></a>
         </div>
     )
 }
