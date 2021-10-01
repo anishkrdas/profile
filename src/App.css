@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 
@@ -17,7 +14,7 @@
   --primary-red-dark: #570404;
   --primary-dark: rgba(255, 255,255,0);
   --primary-dark-grey: #7c7777;
-  --primary-dark-b: rgb(36, 42, 48);
+  --primary-dark-b: rgba(36, 42, 48, 0.76);
   --primary-dark-transparent: rgba(36, 42, 48, 0);
   --primary-light-grey: rgb(151, 152, 153);
   --primary-hover-red: #f33501;
@@ -30,6 +27,7 @@
   --primary-date: #e9fafb;
   --primary-dark-a: rgb(31, 37, 44);
   --primary-drop-b: #08555575;
+  --primary-black-light: rgba(0, 0, 0, 0.781);
 
   --experience-background: #FFFEE0;
   --about-me-background: #FFFEE0;
@@ -69,19 +67,21 @@ nav ul li {
 }
 
 .navbar {
-  width:37% !important;
+  width:100% !important;
   background: #FFFEE0;
   height: 3rem;
+  opacity: 85%;
 }
 
 .navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+  margin-right: 1%;
+  margin-left: 13%;
   color: var(--primary-black) !important;
   border-top: 0.1875rem solid var(--primary-dark);
   font-family: 'David Libre', serif;
   font-weight: bolder;
   font-size: 1.3rem;
+  text-align: center !important;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
@@ -112,7 +112,7 @@ nav ul li {
 
 .dropdown-item {
   color: var(--primary-orange) !important;
-  font-family: 'Dangrek', cursive;
+  font-family: 'David Libre', serif;
   font-size: 1.3rem;
 }
 
@@ -123,8 +123,8 @@ nav ul li {
   }
 
 /*@media(max-width: 768px) {
-  .navbar-brand {
-    width: 7rem;
+  .navbar {
+    width: 10rem !important;
   }
  }*/
 
@@ -137,8 +137,8 @@ nav ul li {
   background-position: center;
   height: 100vh;
   margin-top: 3rem !important;
-  margin-left: 3rem !important;
-  margin-right: 3rem !important;
+  margin-left: 3% !important;
+  margin-right: 3% !important;
   margin-bottom: 3rem !important;
   background-attachment: fixed !important;
   background-position: center;
@@ -162,11 +162,12 @@ nav ul li {
   justify-content: left;
   align-items: left;
   text-align: left;  
-  font-family: 'Dangrek', cursive;
-  padding-top: 7rem;
-  padding-left: 3rem;
-  font-size: 1.85rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 10%;
+  padding-left: 3.5%;
+  font-size: 1.4rem;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .main-info {
@@ -181,7 +182,7 @@ nav ul li {
   padding-left: 10rem;
 }
 .typed-text2 {
-  padding-left: 4.24rem;
+  padding-left: 3.9rem;
 }
 
 .typed-text-static{
@@ -190,12 +191,6 @@ nav ul li {
   font-weight: bold;
   color: var(--about-me-img-text);
   position: relative;
-}
-
-.name{
-  font-size: 4.688rem;
-  font-weight: 600;
-  margin-left: -0.188rem;
 }
 
 .tsparticles-canvas-el{
@@ -301,20 +296,12 @@ nav ul li {
   margin-left: -6rem;
 }
 
-
-.about-heading {
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 900;
-  color: var(--primary-black) !important;
-  margin-left: -6rem;
-}
-
 .about-me-dets{
   margin-top: 4rem;
 }
 
 .about-me-dets p {
-  color: var(--primary-dark-b);
+  color: var(--primary-black);
   font-family: 'David Libre', serif;
   font-weight: bolder;
   font-size: 1.1rem;
@@ -327,25 +314,25 @@ nav ul li {
   align-items: center;
   background-image: url("../src/images/main/me.jpg");
   height: 35rem;
-  width: 45rem;
-  margin-left: 4rem;
+  width: 45%;
+  margin-left: 4%;
   margin-top: 3rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 28%;
   background-position-x: 20%;
   background-position-y: center;
-  -webkit-animation: 2.5s linear 0s infinite alternate move_eye;
-          animation: 2.5s linear 0s infinite alternate move_eye;
+  -webkit-animation: 3s linear 0s infinite alternate move_eye;
+          animation: 3s linear 0s infinite alternate move_eye;
 }
 
-@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
-        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+@-webkit-keyframes move_eye { from { margin-left: -30%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -30%; } to { margin-left: 100%; }  }
 
 
 
 hr .hr-about {
-  margin-right: 2rem !important;
+  margin-right: 2% !important;
 }
 
 .profile-img {
@@ -360,8 +347,8 @@ hr .hr-about {
 }
 
 .desc-wrapper {
-  margin-left: 7rem;
-  margin-right: 2rem;
+  margin-left: 10%;
+  margin-right: 2%;
   text-align: left;
 }
 
@@ -416,13 +403,8 @@ hr .hr-about {
   
 .experience-block {
   background: var(--back-colour);
-  margin-left: 25rem;
-  margin-right: 25rem;
-}
-
-.experience-heading {
-  font-family: 'Dangrek', cursive;
-  color: var(--header-text) !important;
+  margin-left: 24%;
+  margin-right: 24%;
 }
 
 .experience-wrapper {
@@ -453,6 +435,7 @@ hr .hr-about {
   display: flex;
   justify-content: space-between;
   clear: both;
+
 }
 
 .timeline-block-right {
@@ -479,7 +462,7 @@ hr .hr-about {
   width: 95%;
   padding: 0 0.9375rem;
   color: var(--primary-dark-b);
-  font-weight: bolder;
+  
   
 }
 
@@ -507,14 +490,14 @@ hr .hr-about {
   position: absolute;
   opacity: 0;
   background: var(--primary-dark-grey);
-  width: 21.2rem;
+  width: 38%;
   height: 2.5rem;
   cursor: pointer;
   border: 3px solid var(--primary-black);
   margin-top: -.2rem;
-  margin-bottom: 3rem;
-  margin-right: 1.1rem;
-  margin-left: 1.1rem;
+  margin-bottom: 3%;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
 .click-text{
@@ -526,8 +509,8 @@ hr .hr-about {
   font-weight: bold;
   display:inline-block;
   padding: 6.5px;
-  margin-right: 6.5rem;
-  margin-left: 6.5rem;
+  margin-right: 28%;
+  margin-left: 28%;
 }
 
 
@@ -540,7 +523,7 @@ hr .hr-about {
 
 .popupbox-wrapper {
   /*background-color: #FFFEE0 !important;*/
-  width: 50rem;
+  width: 53%;
 }
 
 .popupbox-overlay {
@@ -589,7 +572,7 @@ hr .hr-about {
   }
   
   .org_img {
-  width: 15rem;
+  width: 120%;
   
   }
 
@@ -671,7 +654,7 @@ hr .hr-about {
   background-size: cover;
   background-color: var(--primary-white);
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2.5%;
   margin-bottom: 0;
 }
 
@@ -692,8 +675,8 @@ hr .hr-about {
   background: transparent;
   margin-top: -6%;
   width: 54%;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
   padding-top: 6%;
   padding-bottom: 8%;
   padding-left: 5%;
@@ -726,19 +709,13 @@ hr .hr-about {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
-  margin-top: 2rem;
+  margin-top: 3%;
 }
 
 .contacts p {
-  color: var(--primary-dark-b);
+  color: var(--primary-black);
   font-size: 1.2rem;
 }
-
-.text-bold {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-}
-
 
 
 .btn-main-offer {
@@ -773,9 +750,10 @@ hr .hr-about {
   outline: 0 !important;
   box-shadow: none !important;
   top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2.45%;
   padding-left: 0 !important;
-  font-family: 'Dangrek', cursive;
+  font-family: 'David Libre', serif;
+  
 
   /*  margin-top: 3.7%;
   position: relative;
@@ -786,14 +764,15 @@ hr .hr-about {
 }
 
 .contacts .container {
-  padding: 4rem 0;
+  padding: 4% 0;
 }
 
 .contacts input:focus, .contacts textarea:focus {
   background: transparent;
   color: rgb(61, 61, 61);
   border-bottom: 0.125rem solid var(--primary-details);
-  font-family: 'Dangrek', cursive;
+  font-family: 'David Libre', serif;
+  font-weight: bold;
 }
 
 .contacts textarea {
@@ -818,10 +797,11 @@ hr .hr-about {
 
 .text-center ::placeholder {
   
-  font-family: 'Dangrek', cursive;
+  font-family: 'David Libre', serif;
   text-transform: uppercase;
   text-align: left;
-  color: var(--primary-drop-b) !important;
+  color: var(--primary-black-light) !important;
+  
 }
 
 input:focus+.line, textarea:focus+.line {
@@ -841,14 +821,14 @@ textarea .form-control {
 .error-message {
   color: var(--primary-red);
   text-align: left;
-  font-family: 'Dangrek', cursive;
+  font-family: 'David Libre', serif;
   text-transform: uppercase;
 }
 
 .success-message {
   font-weight: 900;
   color: var(--primary-green);
-  font-family: 'Dangrek', cursive;
+  font-family: 'David Libre', serif;
   text-transform: uppercase;
 }
 

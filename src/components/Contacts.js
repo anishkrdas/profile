@@ -41,7 +41,7 @@ const Contacts = () => {
                             id="name"
                             type="text"
                             className="form-control"
-                            placeholder="Name"
+                            placeholder="Name *"
                             name="name"
                             ref={
                                 register({
@@ -81,7 +81,7 @@ const Contacts = () => {
                             id="email"
                             type="email"
                             className="form-control"
-                            placeholder="Email"
+                            placeholder="Email *"
                             name="email"
                             ref={
                               register({
@@ -102,7 +102,7 @@ const Contacts = () => {
                             id="subject"
                             type="text"
                             className="form-control"
-                            placeholder="Subject"
+                            placeholder="Subject *"
                             name="subject"
                             ref={
                               register({
@@ -123,7 +123,7 @@ const Contacts = () => {
                             id="description"
                             type="text"
                             className="form-control"
-                            placeholder="Kindly brief me about your requirement"
+                            placeholder="Kindly brief me about your requirement *"
                             name="description"
                             ref={
                               register({
