@@ -28,6 +28,8 @@
   --primary-dark-a: rgb(31, 37, 44);
   --primary-drop-b: #08555575;
   --primary-black-light: rgba(0, 0, 0, 0.781);
+  --primary-dark-green:#104e2a;
+  --primary-dark-red:#4e1010;
 
   --experience-background: #FFFEE0;
   --about-me-background: #FFFEE0;
@@ -682,6 +684,34 @@ hr .hr-about {
 
 /*************************TECHS END | CONTACTS START********************************/
 
+
+/*************************TECHS END | ACCOLADES START********************************/
+
+.rewards {
+  background: url(images/main/appreciation.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 1rem 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rewards h1 {
+  color: var(--primary-black);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+
+/*************************ACCOLADES END | CONTACT START********************************/
+
 .contacts {
   background: url(images/main/contact.jpg) no-repeat;
   background-size: cover;
@@ -760,7 +790,7 @@ hr .hr-about {
   top: 0;
   margin-bottom: 2.45%;
   padding-left: 0 !important;
-  font-family: 'David Libre', serif;
+  font-family: 'Josefin Sans', sans-serif;
   
 
   /*  margin-top: 3.7%;
@@ -779,7 +809,7 @@ hr .hr-about {
   background: transparent;
   color: rgb(61, 61, 61);
   border-bottom: 0.125rem solid var(--primary-details);
-  font-family: 'David Libre', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
 
@@ -811,7 +841,7 @@ hr .hr-about {
 
 .text-center ::placeholder {
   
-  font-family: 'David Libre', serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   text-align: left;
   color: var(--primary-black-light) !important;
@@ -833,19 +863,19 @@ textarea .form-control {
 }
 
 .error-message {
-  color: var(--back-colour);
+  color: var(--primary-dark-red);
   text-align: left;
-  font-family: 'David Libre', serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  background: var(--primary-red);
+  font-weight: bold;
 }
 
 .success-message {
   font-weight: 900;
-  color: var(--back-colour);
-  font-family: 'David Libre', serif;
+  color: var(--primary-dark-green);
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  background: var(--primary-green);
+  font-weight: bold;
 }
 
 
@@ -864,3 +894,41 @@ textarea .form-control {
     padding: 0 0.4rem;
   }
 }*/
+
+
+/*************************CONTACTS END | FOOTER START********************************/
+
+.footer {
+  color: var(--primary-black);
+  margin-top: -1rem;
+  text-align: center;
+  margin-left: 51.5%;
+  width: 40%;
+  margin-bottom: 0%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-black);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .9rem;
+}
+
+.call-up:hover {
+  color: var(--primary-dark-green) !important;
+  cursor: pointer;
+}
+
+.footer p {
+  text-decoration: none;
+  color: var(--primary-black);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-dark-red);
+  cursor: pointer;
+}

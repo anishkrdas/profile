@@ -7,7 +7,7 @@ import AboutMe from "./components/AboutMe";
 import MyJourney from './components/MyJourney';
 import Contacts from './components/Contacts';
 import Techs from './components/Techs';
-import Footer from './components/Footer';
+import Accolades from './components/Accolades';
 
 function App() {
   return (
@@ -48,7 +48,7 @@ function App() {
     <MyJourney/>
     <Techs/>
     <Contacts/>
-    
+
     </>
   );
 }

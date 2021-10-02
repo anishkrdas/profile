@@ -37,7 +37,7 @@ const MyJourney = () => {
                 {/*<div className="col-lg-6 col-xm-12">*/}
                 <div className="col-lg-4">
                 <div className="org-pic" >
-                    <img className="org_img" src={cts} alt="cts..."/>
+                    <img className="org_img inline-photo show-on-scroll" src={cts} alt="cts..."/>
                     </div>
                 </div>
                 
@@ -83,7 +83,7 @@ const MyJourney = () => {
                 {/*<div className="col-lg-6 col-xm-12">*/}
                 <div className="col-lg-4">
                     <div className="org-pic" >
-                        <img className="org_img" src={amdocs} alt="amdocs..."/>
+                        <img className="org_img inline-photo show-on-scroll" src={amdocs} alt="amdocs..."/>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@ const MyJourney = () => {
                 {/*<div className="col-lg-6 col-xm-12">*/}
                 <div className="col-lg-4">
                     <div className="org-pic" >
-                        <img className="org_img" src={amdocs} alt="amdocs..."/>
+                        <img className="org_img inline-photo show-on-scroll" src={amdocs} alt="amdocs..."/>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@ const MyJourney = () => {
             {/*<div className="col-lg-6 col-xm-12">*/}
             <div className="col-lg-4">
                     <div className="org-pic" >
-                        <img className="org_img" src={amdocs} alt="amdocs..."/>
+                        <img className="org_img inline-photo show-on-scroll" src={amdocs} alt="amdocs..."/>
                     </div>
                 </div>
             </div>
@@ -209,7 +209,7 @@ const MyJourney = () => {
             {/*<div className="col-lg-6 col-xm-12">*/}
             <div className="col-lg-4">
                     <div className="org-pic" >
-                        <img className="org_img" src={techM} alt="techM..."/>
+                        <img className="org_img inline-photo show-on-scroll" src={techM} alt="techM..."/>
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@ const MyJourney = () => {
             {/*<div className="col-lg-6 col-xm-12">*/}
             <div className="col-lg-4">
                     <div className="org-pic" >
-                        <img className="org_img" src={techM} alt="techM..."/>
+                        <img className="org_img inline-photo show-on-scroll" src={techM} alt="techM..."/>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
-
+import  {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { faReply } from "@fortawesome/free-solid-svg-icons";
 import cv from "../misc/AnishKumaDas_CurriculumVitae.pdf";
 
 const Contacts = () => {
@@ -135,6 +137,9 @@ const Contacts = () => {
                     </div>
                 </div>
                 </form>
+            </div>
+            <div className="footer">
+                <p>&copy;2021 Anish Kumar Das. Design by <a href="mailto:anishkrdas@outlook.com"> &Lambda; &kappa; D <FontAwesomeIcon icon={faReply}/> </a> |  <a className = "call-up" href="tel:+917768862416"><FontAwesomeIcon icon={faPhoneVolume}/> +091-776-886-2416</a></p>
             </div>
         </div>
     )

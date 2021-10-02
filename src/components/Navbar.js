@@ -41,6 +41,9 @@ const Navbar = () => {
         <Link smooth={true} to="techs" spy={true} offset={-47} duration={1} className="nav-link" href="#">Techs.</Link>
       </li>
       {/*<li className="nav-item">
+        <Link smooth={true} to="rewards" spy={true} offset={-47} duration={1} className="nav-link" href="#">Accolades</Link>
+      </li>
+      <li className="nav-item">
         <Link smooth={true} to="whatIDo" offset={-50} className="nav-link" href="#">Grinds</Link>
       </li>
         <li class="nav-item dropdown ">
