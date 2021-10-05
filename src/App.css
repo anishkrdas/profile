@@ -1031,6 +1031,10 @@ textarea .form-control {
           color: #b53f3f;
     border-radius: 3px 0px 0px 3px;
       }
+
+      #social-share a .fa-envelope-open {
+        color: #03608b;
+    }
        
       #social-share a .fa-twitter {
           color:#87ceeb;
@@ -1107,6 +1111,12 @@ textarea .form-control {
           border-color:#b53f3f;
           color: #fff;
       }
+
+      #social-share #outlook:focus > .fa-envelope-open, #social-share .fa-envelope-open:hover {
+        background-color: #03608b;
+        border-color:#03608b;
+        color: #fff;
+    }
 
       .my-social {
           font-size: 1.5em;

@@ -170,9 +170,15 @@ const Contacts = () => {
            <a href="https://www.facebook.com" target="_blank" title="Facebook" id="facebook">
                <i class="fab fa-facebook-f my-social"></i>
                         </a> */}
-     
-           <a href="https://mail.google.com/mail/?view=cm&fs=1&su=Check+out+the+Profile+of+Anish+Kumar+Das&body=Anish+Kumar+Das+Online+Profile+https://anishkumardas.herokuapp.com/" target="_blank" title="Gmail" id="gmail">
+                         <a href="https://outlook.live.com/mail/0/deeplink/compose?popoutv2=1&subject=Check+out+the+Profile+of+Anish+Kumar+Das&body=Anish+Kumar+Das+Online+Profile+https://anishkumardas.herokuapp.com/" target="_blank" title="Share over Outlook" id="outlook">
+             <i class="fas fa-envelope-open my-social"></i>
+            
+             
+         </a>          
+           <a href="https://mail.google.com/mail/?view=cm&fs=1&su=Check+out+the+Profile+of+Anish+Kumar+Das&body=Anish+Kumar+Das+Online+Profile+https://anishkumardas.herokuapp.com/" target="_blank" title="Share over Gmail" id="gmail">
              <i class="fas fa-envelope my-social"></i>
+
+            
              
          </a>
      
