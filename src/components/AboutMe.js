@@ -11,7 +11,7 @@ const AboutMe = () => {
 
 
 
-                <div className="photo-wrap mb-5" >
+                <div className="photo-wrap mb-5 parallax" >
                     {/*<img className="profile-img" src={author} alt="author..."/>*/}
                     <div className="test"><p><Typed 
                     className="typed-text"

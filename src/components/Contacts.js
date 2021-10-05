@@ -141,6 +141,42 @@ const Contacts = () => {
             <div className="footer">
                 <p>&copy;2021 Anish Kumar Das. Design by <a href="mailto:anishkrdas@outlook.com"> &Lambda; &kappa; D <FontAwesomeIcon icon={faReply}/> </a> |  <a className = "call-up" href="tel:+917768862416"><FontAwesomeIcon icon={faPhoneVolume}/> +091-776-886-2416</a></p>
             </div>
+            <div id="social-share">
+           
+           <a  title="Social Share" id="share">
+               <i class="fas fa-share-alt my-social"></i>
+           </a>
+     
+         {/*   <a href="https://www.instagram.com" target="_blank" title="Instagram" id="instagram">
+               <i class="fab fa-instagram my-social"></i>
+           </a> 
+                        
+          <a href="https://www.reddit.com" target="_blank" title="Reddit" id="reddit">
+               <i class="fab fa-reddit-alien my-social"></i>
+           </a>  
+     
+           <a href="https://www.linkedin.com" target="_blank" title="Linkedin" id="linkedin">
+               <i class="fab fa-linkedin-in my-social"></i>
+           </a>
+     
+           <a href="#YWhatsapp url" target="_blank" title="Whatsapp" id="whatsapp">
+               <i class="fab fa-whatsapp my-social"></i>
+           </a>
+            
+           <a href="https://www.twitter.com" target="_blank" title="Twitter" id="twitter">
+               <i class="fab fa-twitter my-social"></i>
+           </a>
+     
+           <a href="https://www.facebook.com" target="_blank" title="Facebook" id="facebook">
+               <i class="fab fa-facebook-f my-social"></i>
+                        </a> */}
+     
+           <a href="https://mail.google.com/mail/?view=cm&fs=1&su=Check+out+the+Profile+of+Anish+Kumar+Das&body=Anish+Kumar+Das+Online+Profile+https://anishkumardas.herokuapp.com/" target="_blank" title="Gmail" id="gmail">
+             <i class="fas fa-envelope my-social"></i>
+             
+         </a>
+     
+       </div>
         </div>
     )
 }

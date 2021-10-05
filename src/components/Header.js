@@ -27,7 +27,7 @@ const Header = () => {
 
     return (
         <div className="head">
-        <div id = "home" className="header-wraper">
+        <div id = "home" className="header-wraper parallax section">
             <div>
             <div className="main-info">
                 {/*<div class="text-1">
@@ -67,6 +67,12 @@ const Header = () => {
                     backSpeed={109}
     /></div>
     </div>
+    
+    <div class="arrow-head bounce-arrow">
+  <a class="fa fa-arrow-down fa-2x" href="#"></a>
+</div>
+
+
             </div>
             </div>
             </div>

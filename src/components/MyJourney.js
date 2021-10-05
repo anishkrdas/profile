@@ -230,7 +230,7 @@ const MyJourney = () => {
                 {/*<div className="col-lg-6 col-xm-12">*/}
                 <div className="col-lg-8">
             <div className="exp">
-                
+                <p className="exp_body">Extensive and professional training; achieved specialized on the below mentioned verticals &ndash;</p>
                 <p className="exp_body">
                 <ul>
                         <li>
@@ -244,6 +244,7 @@ const MyJourney = () => {
                         </li>
                     </ul>
                 </p>
+                <p className="exp_body">"ENTRY LEVEL INTEGRATED TRAINING AND ENABLEMENT PROGRAM" Certified</p>
             </div>
             </div>
             {/*<div className="col-lg-6 col-xm-12">*/}
