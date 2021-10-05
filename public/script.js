@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
 //scroll to top starts
-src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
 
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 80) {       

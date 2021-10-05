@@ -68,7 +68,7 @@ const Header = () => {
     /></div>
     </div>
     
-    <div class="arrow-head bounce-arrow">
+    <div class="arrow-head bounce">
   <a class="fa fa-arrow-down fa-2x" href="#"></a>
 </div>
 

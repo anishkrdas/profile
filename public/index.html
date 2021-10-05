@@ -35,10 +35,32 @@
     <div id="root">
     </div>
     <a href="javascript:" id="return-to-top" class="bounce arrow"><i class="far fa-arrow-alt-circle-up"></i></a>
-    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
-    <script src="script.js"></script>
+    <script>
+      $(window).scroll(function() {
+    if ($(this).scrollTop() >= 80) {       
+        $('#return-to-top').fadeIn(1300);  
+    } else {
+        $('#return-to-top').fadeOut(900);  
+    }
+});
+$('#return-to-top').click(function() {   
+    $('body,html').animate({
+        scrollTop : 0  
+    }, 500);
+});
+
+//scroll to top ends
+
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip({
+        placement : 'top'
+    });
+});
+    </script>
 
     <script type="text/javascript">
       alert("This website is not intended for mobile viewing!");
