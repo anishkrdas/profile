@@ -779,9 +779,9 @@ hr .hr-about {
       line-height: 1;
   }
   
-  h3:hover {
+  /*h3:hover {
       animation-play-state: paused;
-  }
+  }*/
   
   
   @keyframes text-shadow {
