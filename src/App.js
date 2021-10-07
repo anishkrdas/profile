@@ -8,6 +8,7 @@ import MyJourney from './components/MyJourney';
 import Contacts from './components/Contacts';
 import Techs from './components/Techs';
 import Accolades from './components/Accolades';
+import AboutMeSub from "./components/AboutMeSub";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
     <Navbar/>
     <Header/>
     <AboutMe/>
+    <AboutMeSub/>
     <MyJourney/>
     <Techs/>
     <Contacts/>

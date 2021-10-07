@@ -2,6 +2,8 @@ import React from "react";
 import Typed from "react-typed";
 
 
+
+
 const AboutMe = () => {
     return (
         <div className="about">
@@ -13,13 +15,13 @@ const AboutMe = () => {
 
                 <div className="photo-wrap mb-5 parallax" >
                     {/*<img className="profile-img" src={author} alt="author..."/>*/}
-                    <div className="test"><p><Typed 
+                    <div className="test">{/*<p><Typed 
                     className="typed-text"
                     strings={["Fullstack Developer", "Web Designer", "Team Lead", "Gamer", "Freelancer"]}
                     typeSpeed={20}
                     backSpeed={55}
                     loop
-                /></p></div>
+                /></p>*/}</div>
                     </div>
                 
                 </div>
@@ -47,7 +49,9 @@ const AboutMe = () => {
             </div>
             
         </div>
+        
         </div>
+        
     )
 }
 

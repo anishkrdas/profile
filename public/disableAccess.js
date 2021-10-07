@@ -1,6 +1,6 @@
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 /* eslint-disable no-undef */
-
+/*
 $(document).on("contextmenu",function(e){        
    e.preventDefault();
 });
@@ -109,3 +109,9 @@ document.onkeydown = function(e) {
 };
 
 //DISABLE CTRL KEY COMBINATIONS START// 
+
+*/
+
+(function(){
+	debugger
+  }())

@@ -225,7 +225,7 @@ const MyJourney = () => {
         const content = (
             <>
             <div className="row">
-            <h2 className="exp_header">Associate</h2><hr/>
+            <h2 className="exp_header">Associate Software Engineer</h2><hr/>
             <div></div>
                 {/*<div className="col-lg-6 col-xm-12">*/}
                 <div className="col-lg-8">
@@ -274,7 +274,7 @@ const MyJourney = () => {
                         <div className="marker">
                         </div>
                         <div className="timeline-content">
-                            <h3>Dec. 2020&nbsp;&ndash;&nbsp;Present</h3>
+                            <h3 class="home-title">Dec. 2020&nbsp;&ndash;&nbsp;Present</h3>
                             <p>Senior Associate - Projects<br/>(Software Development Team Lead)<br/>
                             <b>Cognizant Digital Engineering<br/>
                             Cognizant Technology Solutions</b></p>

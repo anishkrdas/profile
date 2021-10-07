@@ -433,6 +433,98 @@ hr .hr-about {
 }*/
 
 
+
+/**************************EXTENDED**************************/
+
+.perspective-text {
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.perspective-line {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-me-extended {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--back-colour);
+  overflow: hidden;
+  margin-left: -13.5%;
+  margin-top: -5.5%;
+  padding-bottom: -2%;
+  height: 42rem;
+
+  background: url(images/main/extended.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-me-extended p {
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.perspective-line:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective-line:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.337);
+}
+
+.perspective-text:hover p {
+  transform: translate(0, -50px);
+}
+
+.perspective-line:nth-child(1) {
+  left: 29px;
+  background: #84cdfa;
+}
+
+.perspective-line:nth-child(2) {
+  left: 58px;
+  background: #f07e6e;
+}
+
+.perspective-line:nth-child(3) {
+  left: 87px;
+  background: #84cdfa;
+}
+
+.perspective-line:nth-child(4) {
+  left: 116px;
+  background: #f07e6e;
+}
+
+.perspective-line:nth-child(5) {
+  left: 145px;
+  background: #84cdfa;
+}
+
+.perspective-line:nth-child(6) {
+  left: 174px;
+  background: #f07e6e;
+}
+
+.perspective-line:nth-child(7) {
+  left: 203px;
+}
+
+
 /*************************ABOUT ME END | MY JOURNEY START********************************/
 
 .experience {
@@ -534,7 +626,7 @@ hr .hr-about {
 .overflow{
   position: absolute;
   opacity: 0;
-  background: var(--primary-dark-grey);
+  background: var(--primary-details);
   width: 38%;
   height: 2.5rem;
   cursor: pointer;
@@ -549,7 +641,7 @@ hr .hr-about {
   position: relative;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif !important;
-  color: var(--primary-black);
+  color: var(--primary-orange);
   font-size: 1rem;
   font-weight: bold;
   display:inline-block;
@@ -671,6 +763,90 @@ hr .hr-about {
       display: none;
     }
   }*/
+
+
+
+  *,
+  :before,
+  :after {
+      box-sizing: border-box;
+  }
+  
+  h3 {
+      animation: text-shadow 1.5s ease-in-out infinite;
+      font-size: 5em;
+      font-weight: 900;
+      line-height: 1;
+  }
+  
+  h3:hover {
+      animation-play-state: paused;
+  }
+  
+  
+  @keyframes text-shadow {
+      0% {  
+          transform: translateY(0);
+          text-shadow: 
+              0 0 0 #0c2ffb, 
+              0 0 0 #2cfcfd, 
+              0 0 0 #fb203b, 
+              0 0 0 #fefc4b;
+      }
+  
+      20% {  
+          transform: translateY(-1em);
+          text-shadow: 
+              0 0.125em 0 #0c2ffb, 
+              0 0.25em 0 #2cfcfd, 
+              0 -0.125em 0 #fb203b, 
+              0 -0.25em 0 #fefc4b;
+      }
+  
+      40% {  
+          transform: translateY(0.5em);
+          text-shadow: 
+              0 -0.0625em 0 #0c2ffb, 
+              0 -0.125em 0 #2cfcfd, 
+              0 0.0625em 0 #fb203b, 
+              0 0.125em 0 #fefc4b;
+      }
+      
+     60% {
+          transform: translateY(-0.25em);
+          text-shadow: 
+              0 0.03125em 0 #0c2ffb, 
+              0 0.0625em 0 #2cfcfd, 
+              0 -0.03125em 0 #fb203b, 
+              0 -0.0625em 0 #fefc4b;
+      }
+  
+      80% {  
+          transform: translateY(0);
+          text-shadow: 
+              0 0 0 #0c2ffb, 
+              0 0 0 #2cfcfd, 
+              0 0 0 #fb203b, 
+              0 0 0 #fefc4b;
+      }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+      * {
+        animation: none !important;
+        transition: none !important;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 /*************************MY JOURNEY END | TECHS START********************************/
@@ -963,6 +1139,28 @@ textarea .form-control {
   text-decoration: none;
   color: var(--primary-dark-red);
   cursor: pointer;
+}
+
+
+.foot-wrap p {
+  color: #fff;
+  background: linear-gradient(to right,#571919 10%, #005279 50%, #066809 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
 }
 
 /***************************SOCIAL SHARE*********************************************/
