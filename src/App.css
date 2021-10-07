@@ -460,7 +460,6 @@ hr .hr-about {
   margin-top: -5% !important;
   margin-bottom: -2% !important;
   height: 40rem;
-
   background: url(images/main/extended1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -475,6 +474,7 @@ hr .hr-about {
   height: 50px;
   line-height: 50px;
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .perspective-line:nth-child(odd) {
