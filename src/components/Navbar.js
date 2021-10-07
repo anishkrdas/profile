@@ -21,7 +21,7 @@ const Navbar = () => {
 
 
     return (
-<nav id = "navBar" className="navbar navbar-expand-lg navbar-cust fixed-top">
+<nav id = "navBar" className="navbar navbar-expand-lg navbar-cust">
   <div className="container">
 
   <a className="navbar-brand" href="#"></a>

@@ -148,7 +148,6 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin-top: 3rem !important;
   margin-left: 3% !important;
   margin-right: 3% !important;
   margin-bottom: 3rem !important;
@@ -356,17 +355,17 @@ nav ul li {
   justify-content: center;
   align-items: center;
   background-image: url("../src/images/main/me.jpg");
-  height: 35rem;
-  width: 45%;
+  height: 45rem;
+  width: 100%;
   margin-left: 4%;
-  margin-top: 3rem;
+  margin-top: -15% !important;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 28%;
   background-position-x: 20%;
-  background-position-y: center;
+  background-position-y: center;/*
   -webkit-animation: 3s linear 0s infinite alternate move_eye;
-          animation: 3s linear 0s infinite alternate move_eye;
+          animation: 3s linear 0s infinite alternate move_eye;*/
 }
 
 @-webkit-keyframes move_eye { from { margin-left: -30%; } to { margin-left: 100%; }  }
@@ -457,12 +456,12 @@ hr .hr-about {
   justify-content: center;
   background: var(--back-colour);
   overflow: hidden;
-  margin-left: -13.5%;
-  margin-top: -5.5%;
-  padding-bottom: -2%;
-  height: 42rem;
+  margin-left: -55%;
+  margin-top: -5% !important;
+  margin-bottom: -2% !important;
+  height: 40rem;
 
-  background: url(images/main/extended.jpg) no-repeat;
+  background: url(images/main/extended1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
