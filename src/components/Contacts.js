@@ -5,8 +5,13 @@ import  {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 import { faReply } from "@fortawesome/free-solid-svg-icons";
 import cv from "../misc/AnishKumaDas_CurriculumVitae.pdf";
+import Recaptcha from "react-google-recaptcha";
 
 const Contacts = () => {
+
+    function onChange(value) {
+        console.log('Captcha value:', value);
+      }
 
     const {register, handleSubmit, errors} = useForm();
     const [successMessage, setSuccessMessage] = useState("");
@@ -28,6 +33,8 @@ const Contacts = () => {
               setSuccessMessage("!!!  Thank you for your message! I've received the notification! I will contact you as soon as possible  !!!");
           }).catch(err => console.error(`!!!  Something went wrong ${err} !!!`));
       }
+
+
 
 
     return (
@@ -54,7 +61,7 @@ const Contacts = () => {
                             name="name" required
                             ref={
                                 register({
-                                    required : "!!!  Please enter your name  !!!"
+                                    required : " !!!  Please enter your name  !!! "
                                 })
                             }
                         />
@@ -72,7 +79,7 @@ const Contacts = () => {
                                 register({
                                     pattern: {
                                       value: /^[0-9]{10}$/,
-                                      message: "!!!  Please provide a valid phone number  !!!"
+                                      message: " !!!  Please provide a valid phone number  !!! "
                                     }
                                 })
                             }
@@ -88,7 +95,7 @@ const Contacts = () => {
                             name="email" required
                             ref={
                               register({
-                                  required : "!!!  Please provide me with your email address  !!!",
+                                  required : " !!!  Please provide me with your email address  !!! ",
                                   pattern: {
                                     value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                                     message: "!!!  Please provide a valid email id  !!!"
@@ -107,7 +114,7 @@ const Contacts = () => {
                             name="subject" required
                             ref={
                               register({
-                                  required : "!!!  Please add a subject  !!!"
+                                  required : " !!!  Please add a subject  !!! "
                               })
                           }
                         />
@@ -123,11 +130,11 @@ const Contacts = () => {
                             id="description"
                             type="text"
                             className="form-control"
-                            placeholder="Message ... *"
+                            placeholder="Message *"
                             name="description" required
                             ref={
                               register({
-                                  required : "!!!  Please brief me your requirement  !!!"
+                                  required : " !!!  Please brief me about your requirement  !!! "
                               })
                           }
                         ></textarea>
@@ -138,6 +145,12 @@ const Contacts = () => {
                 </div>
                 </form>
             </div>
+           {/* <div className="App">
+      <Recaptcha
+        sitekey="6LcKzbUcAAAAAHLl2UVUiUAaQ4w420VZ97nHQU8f"
+        onChange={onChange}
+      />
+    </div>*/}
             <div className="footer foot-wrap">
                 <p>&copy;2021 Anish Kumar Das. Design by <a href="mailto:anishkrdas@outlook.com"> &Lambda; &kappa; D <FontAwesomeIcon icon={faReply}/> </a> |  <a className = "call-up" href="tel:+917768862416"><FontAwesomeIcon icon={faPhoneVolume}/> +091-776-886-2416</a></p>
             </div>
