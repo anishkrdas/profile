@@ -6,8 +6,8 @@ import Typed from "react-typed";
 
 const AboutMe = () => {
     return (
-        <div className="about">
-        <div id = "about" className="container py-5 about">
+        <div className="about"  id = "about">
+        <div className="container py-5 about">
             <div className="row">
                 <div className="col-lg-7 col-xm-12">
 

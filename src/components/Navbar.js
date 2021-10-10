@@ -9,18 +9,10 @@ import { Link } from "react-scroll";
 const Navbar = () => {
 
 
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = "../components/collapseNav.js";
-    script.async = true;
-    document.body.appendChild(script);
-  return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
 
 
     return (
+    /*
 <nav id = "navBar" className="navbar navbar-expand-lg navbar-cust">
   <div className="container">
 
@@ -40,7 +32,7 @@ const Navbar = () => {
       <li className="nav-item">
         <Link smooth={true} to="techs" spy={true} offset={-47} duration={1} className="nav-link" href="#">Techs.</Link>
       </li>
-      {/*<li className="nav-item">
+      <li className="nav-item">
         <Link smooth={true} to="rewards" spy={true} offset={-47} duration={1} className="nav-link" href="#">Accolades</Link>
       </li>
       <li className="nav-item">
@@ -55,7 +47,7 @@ const Navbar = () => {
         <Link smooth={true} to="contact" offset={-50} class="dropdown-item" href="#">Gaming</Link>
           <Link smooth={true} to="contact" offset={-50} class="dropdown-item" href="#">Misc Items</Link>
         </div>
-    </li>*/}
+    </li>
       <li className="nav-item">
         <Link smooth={true} to="contact" spy={true} offset={-47} duration={1} className="nav-link" href="#">Contact</Link>
       </li>
@@ -63,7 +55,41 @@ const Navbar = () => {
     </ul>
   </div>
   </div>
-</nav>
+</nav>*/
+<div>
+<input type="checkbox" id="ham-menu"/>
+<label for="ham-menu">
+  <div className="hide-des">
+    <span className="menu-line"></span>
+    <span className="menu-line"></span>
+    <span className="menu-line"></span>
+    <span className="menu-line"></span>
+    <span className="menu-line"></span>
+    <span className="menu-line"></span>
+  </div>
+
+</label>
+<div className="full-page-green"></div>
+<div className="ham-menu">
+  <ul className="centre-text bold-text">
+  <li className="nav-item active">
+        <Link smooth={true} to="home" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Home<span className="sr-only">(current)</span></Link>
+      </li>
+  <li className="nav-item active">
+        <Link smooth={true} to="about" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">About<span className="sr-only"></span></Link>
+      </li>
+      <li className="nav-item">
+        <Link smooth={true} spy={true} to="journey" offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Profile</Link>
+      </li>
+      <li className="nav-item">
+        <Link smooth={true} to="techs" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Technologies</Link>
+      </li>
+    <li className="nav-item">
+        <Link smooth={true} to="contact" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Contact</Link>
+      </li>
+
+  </ul>
+</div></div>
     )
 }
 

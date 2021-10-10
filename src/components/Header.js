@@ -26,7 +26,7 @@ const Header = () => {
     }
 
     return (
-        <div className="head">
+        <div className="head" id="home">
         <div id = "home" className="header-wraper parallax section">
             <div>
             <div className="main-info">
