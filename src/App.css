@@ -179,8 +179,8 @@ nav ul li {
 label[for="ham-menu"] {
   display: block;
   position: fixed;
-  top: 20px;
-  left: 33px;
+  top: 5%;
+  left: 1.25%;
   z-index: 999;
   width: 55px;
   height: 55px;
@@ -189,7 +189,7 @@ label[for="ham-menu"] {
   border: 2px solid var(--border-color);
 }
 .ham-menu {
-  width: 8rem;
+  width: 6rem;
   height: 100%;
   position: fixed;
   top: 0;
