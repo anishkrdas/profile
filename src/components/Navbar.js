@@ -58,7 +58,7 @@ const Navbar = () => {
 </nav>*/
 <div>
 <input type="checkbox" id="ham-menu"/>
-<label for="ham-menu">
+<label for="ham-menu" className="mor" title="Click to expand/collapse navigation">
   <div className="hide-des">
     <span className="menu-line"></span>
     <span className="menu-line"></span>
@@ -69,7 +69,7 @@ const Navbar = () => {
   </div>
 
 </label>
-<div className="full-page-green"></div>
+<div className="navbar-add"></div>
 <div className="ham-menu">
   <ul className="centre-text bold-text">
   <li className="nav-item active">
@@ -81,9 +81,13 @@ const Navbar = () => {
       <li className="nav-item">
         <Link smooth={true} spy={true} to="journey" offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Profile</Link>
       </li>
+      {/*<li className="nav-item">
+        <Link smooth={true} to="accolades" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Laurels</Link>
+    </li>*/}
       <li className="nav-item">
         <Link smooth={true} to="techs" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Techs.</Link>
       </li>
+
     <li className="nav-item">
         <Link smooth={true} to="contact" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Contact</Link>
       </li>
