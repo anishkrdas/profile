@@ -833,7 +833,7 @@ hr .hr-about {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif !important;
   color: var(--primary-orange);
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: bold;
   display:inline-block;
   padding: 6.5px;
@@ -964,7 +964,7 @@ hr .hr-about {
   }
   
   h3 {
-      animation: text-shadow 1.5s ease-in-out infinite;
+      animation: text-shadow 3s ease-in-out infinite;
       font-size: 5em;
       font-weight: 900;
       line-height: 1;
@@ -979,8 +979,8 @@ hr .hr-about {
       0% {  
           transform: translateY(0);
           text-shadow: 
-              0 0 0 #0c2ffb, 
-              0 0 0 #2cfcfd, 
+              0 0 0 #6b5c3b, 
+              0 0 0 #fda22c, 
               0 0 0 #fb203b, 
               0 0 0 #fefc4b;
       }
@@ -988,8 +988,8 @@ hr .hr-about {
       20% {  
           transform: translateY(-.75em);
           text-shadow: 
-              0 0.125em 0 #0c2ffb, 
-              0 0.25em 0 #2cfcfd, 
+              0 0.125em 0 #6b5c3b, 
+              0 0.25em 0 #fda22c, 
               0 -0.125em 0 #fb203b, 
               0 -0.25em 0 #fefc4b;
       }
@@ -997,8 +997,8 @@ hr .hr-about {
       40% {  
           transform: translateY(0.5em);
           text-shadow: 
-              0 -0.0625em 0 #0c2ffb, 
-              0 -0.125em 0 #2cfcfd, 
+              0 -0.0625em 0 #6b5c3b, 
+              0 -0.125em 0 #fda22c, 
               0 0.0625em 0 #fb203b, 
               0 0.125em 0 #fefc4b;
       }
@@ -1006,8 +1006,8 @@ hr .hr-about {
      60% {
           transform: translateY(-0.25em);
           text-shadow: 
-              0 0.03125em 0 #0c2ffb, 
-              0 0.0625em 0 #2cfcfd, 
+              0 0.03125em 0 #6b5c3b, 
+              0 0.0625em 0 #fda22c, 
               0 -0.03125em 0 #fb203b, 
               0 -0.0625em 0 #fefc4b;
       }
@@ -1015,8 +1015,8 @@ hr .hr-about {
       80% {  
           transform: translateY(0);
           text-shadow: 
-              0 0 0 #0c2ffb, 
-              0 0 0 #2cfcfd, 
+              0 0 0 #6b5c3b, 
+              0 0 0 #fda22c, 
               0 0 0 #fb203b, 
               0 0 0 #fefc4b;
       }

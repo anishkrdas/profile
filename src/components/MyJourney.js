@@ -313,7 +313,7 @@ const MyJourney = () => {
                     <div className="marker">
                     </div>
                     <div className="timeline-content">
-                        <h3>Jun. 2017&nbsp;&ndash;&nbsp;Sept. 2018</h3>
+                        <h3>May 2017&nbsp;&ndash;&nbsp;Sept. 2018</h3>
                         <p>Experienced Software Developer<br/>
                         <b>Amdocs Delivery<br/>
                         Amdocs Development Center India</b></p>
@@ -327,7 +327,7 @@ const MyJourney = () => {
                     <div className="marker">
                     </div>
                     <div className="timeline-content">
-                        <h3>Mar. 2015&nbsp;&ndash;&nbsp;Jun. 2016</h3>
+                        <h3>Mar. 2015&nbsp;&ndash;&nbsp;Apr. 2017</h3>
                         <p>Software Engineer<br/>
                         <b>Tech Mahindra Limited</b></p>
                     </div>
