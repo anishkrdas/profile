@@ -121,7 +121,7 @@ const Contacts = () => {
                         <div className="line"></div>
                     </div>                    
                     
-                        <a href={cv} download="AnishKumaDas_CurriculumVitae.pdf"><button className="cv-offer cv-btn" type="button">Download my Curriculum Vitae</button></a>
+                        {/*<a href={cv} download="AnishKumaDas_CurriculumVitae.pdf"><button className="cv-offer cv-btn" type="button">Download my Curriculum Vitae</button></a>}
                         </div>
                     <div className="col-md-6 col-xs-12">
                         
