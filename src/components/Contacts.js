@@ -185,7 +185,7 @@
                             
                             
                         </a>   
-                        <a href="https://api.whatsapp.com/send?text=https://anish-kumar-das.herokuapp.com/" data-action="share/whatsapp/share" target="_blank" title="Share over   Whatsapp" id="whatsapp">
+                        <a href="https://api.whatsapp.com/send?text=https://anish-kumar-das.herokuapp.com/" data-action="share/whatsapp/share" target="_blank" title="Share over Whatsapp" id="whatsapp">
                             <i class="fab fa-whatsapp my-social"></i>
                         </a>       
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&su=Check+out+the+Profile+of+Anish+Kumar+Das&body=Anish+Kumar+Das+Online+Profile+https://anish-kumar-das.herokuapp.com/" target="_blank" title="Share over Gmail" id="gmail">
