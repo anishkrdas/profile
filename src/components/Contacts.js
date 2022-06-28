@@ -152,7 +152,7 @@
                     />
                     </div>*/}
                             <div className="footer foot-wrap">
-                                <p>&copy;2021 Anish Kumar Das. Design by <a href="mailto:anishkrdas@outlook.com"> &Lambda; &kappa; D <FontAwesomeIcon icon={faReply}/> </a> |  <a className = "call-up" href="tel:+917768862416"><FontAwesomeIcon icon={faPhoneVolume}/> +091-776-886-2416</a></p>
+                                <p>&copy;2022 Anish Kumar Das. Design by <a href="mailto:anishkrdas@outlook.com"> &Lambda; &kappa; D <FontAwesomeIcon icon={faReply}/> </a> |  <a className = "call-up" href="tel:+917768862416"><FontAwesomeIcon icon={faPhoneVolume}/> +091-776-886-2416</a></p>
                             </div>
                             <div id="social-share">
                         
