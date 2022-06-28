@@ -79,11 +79,11 @@ const Navbar = () => {
         <Link smooth={true} to="about" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">About<span className="sr-only"></span></Link>
       </li>
       <li className="nav-item">
-        <Link smooth={true} spy={true} to="journey" offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Profile</Link>
+        <Link smooth={true} to="profile" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Profile</Link>
       </li>
-      {/*<li className="nav-item">
-        <Link smooth={true} to="accolades" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Laurels</Link>
-    </li>*/}
+      <li className="nav-item">
+        <Link smooth={true} to="journey" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Exp.</Link>
+    </li>
       <li className="nav-item">
         <Link smooth={true} to="techs" spy={true} offset={-47} duration={1} className="nav-link" href="#" type="checkbox">Techs.</Link>
       </li>

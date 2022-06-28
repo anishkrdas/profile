@@ -2,6 +2,7 @@ import React from "react";
 
 const AboutMeSub = () => {
     return (
+      <div id = "profile" className="profile">
         <div className="about-me-extended">
         <div class="perspective-text">
       <div class="perspective-line">
@@ -31,6 +32,7 @@ const AboutMeSub = () => {
       <div class="perspective-line">
         <p>&nbsp;Angular, React&nbsp;</p>
       </div>
+    </div>
     </div>
     </div>
     )
