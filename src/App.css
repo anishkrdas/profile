@@ -207,7 +207,7 @@ label[for="ham-menu"] {
 	  transform: translateY(-15px);
 	}
 	}*/
-
+/*
   @keyframes morph {
     0% { background-color: #CCD4BF; }
     13% { background-color: #B6D8F2; }
@@ -218,6 +218,11 @@ label[for="ham-menu"] {
     75% { background-color: #EEBAB2; }
     88% { background-color: #BEB4C5; }
     100% { background-color: #E5DB9C; }
+  }*/
+  @keyframes morph {
+    0% { background-color: #FFFEE0; }
+    50% { background-color: #dfd1ab; }
+    100% { background-color: #FFFEE0; }
   }
   .mor {
     width: 100%;
