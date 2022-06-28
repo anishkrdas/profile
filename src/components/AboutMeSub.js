@@ -5,32 +5,31 @@ const AboutMeSub = () => {
         <div className="about-me-extended">
         <div class="perspective-text">
       <div class="perspective-line">
-        <p></p>
-        <p>Fullstack Developer</p>
+        <p>&nbsp;Java 7, 8 & above, NodeJS&nbsp;</p>
+        <p>&nbsp;Enterprise Applications&nbsp;</p>
       </div>
       <div class="perspective-line">
-        <p>Developer</p>
-        <p>Web Designer</p>
+        <p>&nbsp;Microservices&nbsp;</p>
+        <p>&nbsp;Design & Architecture&nbsp;</p>
       </div>
       <div class="perspective-line">
-        <p>Designer</p>
-        <p>Team Lead</p>
+        <p>&nbsp;Spring Boot&nbsp;</p>
+        <p>&nbsp;Subject Matter Expert&nbsp;</p>
       </div>
       <div class="perspective-line">
-        <p>Lead</p>
-        <p>Hardcore Gamer</p>
+        <p>&nbsp;Azure & AWS&nbsp;</p>
+        <p>&nbsp;Lead & Mentor&nbsp;</p>
       </div>
       <div class="perspective-line">
-        <p>Gamer</p>
-        <p>Influentialist</p>
+        <p>&nbsp;Apache Kafka & RESTful&nbsp;</p>
+        <p>Optimistic</p>
       </div>
       <div class="perspective-line">
-        <p>Influentialist</p>
-        <p>Optimist</p>
+        <p>&nbsp;MongoDB, Couchbase&nbsp;</p>
+        <p>Influencialist</p>
       </div>
       <div class="perspective-line">
-        <p>Optimist</p>
-        <p></p>
+        <p>&nbsp;Angular, React&nbsp;</p>
       </div>
     </div>
     </div>

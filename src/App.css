@@ -636,7 +636,7 @@ hr .hr-about {
 .perspective-text {
   color: rgb(0, 0, 0);
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 900;
   letter-spacing: 1px;
   text-align: center;
@@ -676,7 +676,7 @@ hr .hr-about {
 }
 
 .perspective-line:nth-child(odd) {
-  transform: skew(60deg, -30deg) scaleY(0.667);
+  transform: skew(60deg, -30deg) scaleY(0.663);
 }
 
 .perspective-line:nth-child(even) {
@@ -715,11 +715,12 @@ hr .hr-about {
 
 .perspective-line:nth-child(6) {
   left: 174px;
-  background: #3d1313;color: #f0b86e;
+  background: #f0b86e;color: #3d1313;
 }
 
 .perspective-line:nth-child(7) {
   left: 203px;
+  color: #3d1313;
 }
 
 
