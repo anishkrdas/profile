@@ -553,8 +553,8 @@ label[for="ham-menu"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../src/images/main/me.jpg");
-  height: 45rem;
+  background-image: url("../src/images/main/me13.jpg");
+  height: 41.7rem;
   width: 100%;
   margin-top: -15% !important;
   background-attachment: fixed;
@@ -565,6 +565,10 @@ label[for="ham-menu"] {
   -webkit-animation: 3s linear 0s infinite alternate move_eye;
           animation: 3s linear 0s infinite alternate move_eye;*/
 }
+/*
+.photo-wrap:hover {
+  transform: scale(7); 
+}*/
 
 @-webkit-keyframes move_eye { from { margin-left: -30%; } to { margin-left: 100%; }  }
         @keyframes move_eye { from { margin-left: -30%; } to { margin-left: 100%; }  }
